@@ -1,14 +1,14 @@
 body {
 	font-family: "halyard-text";
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 0.9rem;
 	letter-spacing: -0.2px;
 	font-feature-settings: "'SS04' 1";
 	overflow-x: hidden;
 }
 
 main {
-	margin-top: 2rem;
+	padding: 2rem;
 }
 
 p,
@@ -30,7 +30,7 @@ img.emoji {
 }
 
 .wrapper {
-	max-width: 640px;
+	max-width: 40rem;
 	margin: 0 auto;
 }
 
@@ -59,7 +59,7 @@ img.emoji {
 	height: 4em;
 	width: 4em;
 	position: absolute;
-	bottom: 1rem;
+	bottom: 0rem;
 	right: -1rem;
 	opacity: 0.1;
 }
@@ -68,7 +68,7 @@ img.emoji {
 	display: flex;
 	margin: 2rem auto;
 	width: max-content;
-	column-gap: 32px;
+	column-gap: 2rem;
 }
 
 .signatures a {
@@ -76,19 +76,19 @@ img.emoji {
 	flex-direction: column;
 	align-items: center;
 	text-decoration: none;
-	width: 142px;
+	width: 8.8rem;
 	color: #ff00a8;
 	transition: all 0.3s ease;
 
 	img {
-		height: 60px;
+		height: 4rem;
 		width: auto;
 		margin-bottom: -1.8rem;
 	}
 
 	p {
 		font-size: 0.8em;
-		border-bottom: 2px solid transparent;
+		border-bottom: 1px solid transparent;
 	}
 }
 
@@ -102,10 +102,26 @@ img.emoji {
 
 .titles {
 	font-family: "halyard-display";
-	font-size: 30px;
+	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: 0.4px;
 	text-align: center;
 	margin-bottom: 1em;
 	color: #222;
+}
+
+@media (max-width: 600px) {
+	html {
+		font-size: 14px;
+	}
+
+	.logo svg {
+		width: 200px;
+	}
+
+	.message::after,
+	.message::before {
+		height: 3em;
+		width: 3em;
+	}
 }
