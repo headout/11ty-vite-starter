@@ -1,9 +1,9 @@
 {
-	"title": "Site Title",
-	"description": "Site description",
+	"title": "Hackout 2021",
+	"description": "The Hackathon to beat!",
 	"type": "website",
-	"image": "og image link",
-	"url": "base url",
-	"username": "@username",
-	"author": "Full Name"
+	"image": "https://www.hackout.io/assets/og.png",
+	"url": "https://www.hackout.io",
+	"username": "@HackoutIO",
+	"author": "Siddharth Jha"
 }
