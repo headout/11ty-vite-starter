@@ -1,0 +1,9 @@
+{
+	"title": "Site Title",
+	"description": "Site description",
+	"type": "website",
+	"image": "og image link",
+	"url": "base url",
+	"username": "@username",
+	"author": "Full Name"
+}
