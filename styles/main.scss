@@ -1,3 +1,6 @@
+@import "navigation";
+@import "footer";
+
 body {
 	font-family: "halyard-text";
 	font-weight: 300;
@@ -5,123 +8,205 @@ body {
 	letter-spacing: -0.2px;
 	font-feature-settings: "'SS04' 1";
 	overflow-x: hidden;
-}
-
-main {
-	padding: 2rem;
-}
-
-p,
-li {
-	line-height: 1.6;
-}
-
-img.emoji {
-	height: 1em;
-	width: 1em;
-	margin: 0 0.05em 0 0.1em;
-	vertical-align: -0.1em;
-}
-
-.logo {
-	margin: 0 auto;
-	width: max-content;
-	padding: 2rem;
-}
-
-.wrapper {
-	max-width: 40rem;
-	margin: 0 auto;
-}
-
-.message {
-	position: relative;
-}
-
-.message::before {
-	content: "";
-	background-image: url("data:image/svg+xml,%3Csvg width='36' height='25' viewBox='0 0 36 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.774994 16.105C0.774994 13.095 2.10499 9.7 4.76499 5.91999C7.42499 2.13999 9.41999 0.249992 10.75 0.249992C12.01 0.249992 12.64 0.669993 12.64 1.50999C12.64 1.85999 12.325 3.04999 11.695 5.07999C11.135 7.03999 10.855 8.47499 10.855 9.38499C10.855 10.295 11.1 10.89 11.59 11.17C13.83 12.71 14.95 14.985 14.95 17.995C14.95 19.815 14.25 21.285 12.85 22.405C11.52 23.525 9.76999 24.085 7.59999 24.085C3.04999 24.085 0.774994 21.425 0.774994 16.105ZM21.775 16.105C21.775 13.095 23.105 9.7 25.765 5.91999C28.425 2.13999 30.42 0.249992 31.75 0.249992C33.01 0.249992 33.64 0.669993 33.64 1.50999C33.64 1.85999 33.325 3.04999 32.695 5.07999C32.135 7.03999 31.855 8.47499 31.855 9.38499C31.855 10.295 32.1 10.89 32.59 11.17C34.83 12.71 35.95 14.985 35.95 17.995C35.95 19.815 35.25 21.285 33.85 22.405C32.52 23.525 30.77 24.085 28.6 24.085C24.05 24.085 21.775 21.425 21.775 16.105Z' fill='black'/%3E%3C/svg%3E%0A");
-	background-size: contain;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(99.75deg, #330066 0%, #333333 129.17%);
 	background-repeat: no-repeat;
-	height: 4em;
-	width: 4em;
-	position: absolute;
-	top: -1rem;
-	left: -2rem;
-	opacity: 0.1;
+	color: white;
+	min-height: 100vh;
 }
 
-.message::after {
-	content: "";
-	background-image: url("data:image/svg+xml,%3Csvg width='36' height='24' viewBox='0 0 36 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.09C0 4.27 0.664995 2.8 1.995 1.68C3.395 0.56 5.18 0 7.35 0C11.9 0 14.175 2.66 14.175 7.98C14.175 10.99 12.845 14.385 10.185 18.165C7.525 21.945 5.53 23.835 4.2 23.835C2.94 23.835 2.31 23.415 2.31 22.575C2.31 22.225 2.59 21.07 3.15 19.11C3.78 17.08 4.095 15.61 4.095 14.7C4.095 13.79 3.85 13.195 3.36 12.915C1.12 11.375 0 9.1 0 6.09ZM21 6.09C21 4.27 21.665 2.8 22.995 1.68C24.395 0.56 26.18 0 28.35 0C32.9 0 35.175 2.66 35.175 7.98C35.175 10.99 33.845 14.385 31.185 18.165C28.525 21.945 26.53 23.835 25.2 23.835C23.94 23.835 23.31 23.415 23.31 22.575C23.31 22.225 23.59 21.07 24.15 19.11C24.78 17.08 25.095 15.61 25.095 14.7C25.095 13.79 24.85 13.195 24.36 12.915C22.12 11.375 21 9.1 21 6.09Z' fill='black'/%3E%3C/svg%3E%0A");
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 4em;
-	width: 4em;
-	position: absolute;
-	bottom: 0rem;
-	right: -1rem;
-	opacity: 0.1;
+p {
+	text-align: center;
+	max-width: 480px;
+	margin: 0 auto;
+	margin-bottom: 2em;
 }
 
-.signatures {
-	display: flex;
-	margin: 2rem auto;
-	width: max-content;
-	column-gap: 2rem;
+h2 {
+	font-family: "halyard-display";
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 54px;
+	text-align: center;
+	letter-spacing: 0.6px;
 }
 
-.signatures a {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+a {
 	text-decoration: none;
-	width: 8.8rem;
-	color: #ff00a8;
-	transition: all 0.3s ease;
+}
+
+.container {
+	width: 1000px;
+	padding-left:100px;
+	padding-right:100px;
+	margin: 0 auto;
+}
+
+.speakers-list {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	row-gap: 2rem;
+	margin-top: 3rem;
+}
+
+.speaker-card-mini {
+	width: 180px;
+	display: grid;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.speaker-card-mini img {
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.speaker-name {
+	font-size: 1.2em;
+	letter-spacing: 0;
+}
+
+.speaker-title {
+	font-size: 0.8em;
+	opacity: 0.6;
+}
+
+.speaker-name, .speaker-title {
+	text-align: center;
+}
+
+section {
+	padding: 4rem 0;
+}
+
+header.container {
+	height: 400px;
+	padding-top: 140px;
+
+	.header-container {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+
+		#hackout-logo {
+			margin: 0 auto;
+		}
+
+		h3 {
+			text-align: center;
+		}
+
+		.cta {
+			margin: auto;
+			margin-bottom: 2rem;
+		}
+
+		.title-sponsor{
+
+			margin: auto;
+			p {
+				margin-bottom: 1em;
+			}
+			img {
+				width: 200px;
+			}
+		} 
+
+	}
+}
+
+button {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	border: none;
+	outline: none;
+	box-shadow: 2px 8px 8px #170636;
 
 	img {
-		height: 4rem;
-		width: auto;
-		margin-bottom: -1.8rem;
+		height: 1.4em;
+		margin-right: 0.4em;
 	}
 
-	p {
-		font-size: 0.8em;
-		border-bottom: 1px solid transparent;
+    &:hover {
+        background-color: #2954bf;
+    }
+}
+
+#discord {
+    background: #7289da;
+}
+
+.prizes-primary {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 20px;
+	z-index: -100;
+
+	@media screen and (max-width: 600px){
+		grid-template-columns: 1fr;
+		width: 80%;
+		margin: 0 auto;
+		row-gap: 20px;
+	}
+
+	img {
+		width: 100%;
 	}
 }
 
-.signatures a:hover {
-	color: #8000ff;
+.sponsors {
+    text-align: center;
+	margin-bottom: 3rem;
+	
+	img {
+		width: 360px;
+	}
 
-	p {
-		border-bottom: 1px solid currentColor;
+	h4 {
+		font-weight: 300;
+	}
+
+    @media screen and (max-width: 600px) {
+        img {
+            width: 300px;
+        }
 	}
 }
 
-.titles {
-	font-family: "halyard-display";
-	font-size: 1.8rem;
-	font-weight: 500;
-	letter-spacing: 0.4px;
-	text-align: center;
-	margin-bottom: 1em;
-	color: #222;
-}
+.sponsors.gold {
+	img { width: 240px }
+} 
 
-@media (max-width: 600px) {
-	html {
-		font-size: 14px;
-	}
+.sponsors.silver {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-	.logo svg {
-		width: 200px;
-	}
+    img {
+        height: 40px;
+        width: auto;
+    }
 
-	.message::after,
-	.message::before {
-		height: 3em;
-		width: 3em;
-	}
+    div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        justify-content: space-between;
+        width: 800px;
+        row-gap: 20px;
+    }
+
+    @media screen and (max-width: 800px) {
+        div {
+            width: 80%;
+        }
+    }
 }

@@ -1,0 +1,37 @@
+footer {
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.contact-container {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-cta, .contact-email {
+	text-align: center;
+}
+
+.contact-cta {
+	margin-bottom: 32px;
+}
+
+.contact-email {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 54px;
+	text-align: center;
+	letter-spacing: 0.6px;
+	margin-bottom: 48px;
+}
+
+.contact-socials {
+	display: flex;
+	column-gap: 1rem;
+	margin: 0 auto;
+}
