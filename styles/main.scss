@@ -24,6 +24,7 @@ body {
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
+	background: linear-gradient(99.75deg, #ffece5 0%, #f3d6a8 129.17%);
 	background: linear-gradient(99.75deg, #330066 0%, #333333 129.17%);
 	background-repeat: no-repeat;
 	color: white;
@@ -90,7 +91,8 @@ a {
 	opacity: 0.6;
 }
 
-.speaker-name, .speaker-title {
+.speaker-name,
+.speaker-title {
 	text-align: center;
 }
 
@@ -115,13 +117,7 @@ header.container {
 			text-align: center;
 		}
 
-		.cta {
-			margin: auto;
-			margin-bottom: 2rem;
-		}
-
-		.title-sponsor{
-
+		.title-sponsor {
 			margin: auto;
 			p {
 				margin-bottom: 1em;
@@ -129,14 +125,13 @@ header.container {
 			img {
 				width: 12rem;
 			}
-		} 
-
+		}
 	}
 }
 
 button {
-    color: white;
-    border-radius: 4px;
+	color: black;
+	border-radius: 4px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -150,13 +145,9 @@ button {
 		margin-right: 0.4em;
 	}
 
-    &:hover {
-        background-color: #2954bf;
-    }
-}
-
-#discord {
-    background: #7289da;
+	&:hover {
+		background-color: #2954bf;
+	}
 }
 
 .prizes-primary {
@@ -165,7 +156,7 @@ button {
 	column-gap: 1.4rem;
 	z-index: -100;
 
-	@media screen and (max-width: 600px){
+	@media screen and (max-width: 600px) {
 		grid-template-columns: 1fr;
 		width: 80%;
 		margin: 0 auto;
@@ -178,9 +169,9 @@ button {
 }
 
 .sponsors {
-    text-align: center;
+	text-align: center;
 	margin-bottom: 3rem;
-	
+
 	img {
 		width: 22rem;
 	}
@@ -189,41 +180,43 @@ button {
 		font-weight: 300;
 	}
 
-    @media screen and (max-width: 600px) {
-        img {
-            width: 18rem;
-        }
+	@media screen and (max-width: 600px) {
+		img {
+			width: 18rem;
+		}
 	}
 }
 
 .sponsors.gold {
-	img { width: 15rem }
-} 
+	img {
+		width: 15rem;
+	}
+}
 
 .sponsors.silver {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-    img {
-        height: 2.5rem;
-        width: auto;
-    }
+	img {
+		height: 2.5rem;
+		width: auto;
+	}
 
-    div {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        justify-content: space-between;
-        width: 800px;
-        row-gap: 1.4rem;
-    }
+	div {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		justify-content: space-between;
+		width: 800px;
+		row-gap: 1.4rem;
+	}
 
-    @media screen and (max-width: 800px) {
-        div {
-            width: 80%;
-        }
-    }
+	@media screen and (max-width: 800px) {
+		div {
+			width: 80%;
+		}
+	}
 }
 
 .cta {
@@ -233,20 +226,200 @@ button {
 	column-gap: 1rem;
 
 	@media screen and (max-width: 800px) {
-        grid-template-columns: 1fr;
+		grid-template-columns: 1fr;
 		row-gap: 1rem;
-    }
-
-	button {
-		width: 16.25rem;
-		height: 40px;
-		box-shadow: 2px 8px 8px #170636;
-		margin: 0 auto;
 	}
+}
 
-	iframe {
-		transform: scale(0.9);
-		width: 17.5rem !important;
-		box-shadow: 2px 8px 8px #170636;
+.header-cta {
+	position: relative;
+	width: 280px;
+	height: 50px;
+	margin: 20px;
+	background: none;
+	box-shadow: none;
+	color: white;
+	transition: 0.3s;
+}
+
+.header-cta:hover {
+	background: none;
+	color: white;
+}
+
+.header-cta a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 35px rgba(73, 47, 47, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	color: currentColor;
+	letter-spacing: 0.3px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+	z-index: 9;
+}
+
+.header-cta:hover a {
+	letter-spacing: 1px;
+}
+
+.header-cta a::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+	transform: skewX(45deg) translateX(0);
+	transition: 0.5s;
+	background: linear-gradient(
+		to left,
+		rgba(255, 255, 255, 0.04),
+		transparent
+	);
+}
+
+.header-cta:hover a::before {
+	transform: skewX(45deg) translateX(200%);
+}
+
+.header-cta::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -5px;
+	width: 60%;
+	height: 10px;
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0s;
+}
+
+.header-cta:hover:before {
+	bottom: 0;
+	height: 50%;
+	width: 90%;
+	border-radius: 30px;
+	// transition-delay: 0.2s;
+}
+
+.header-cta:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -5px;
+	width: 60%;
+	height: 10px;
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0s;
+}
+
+.header-cta:hover:after {
+	top: 0;
+	height: 50%;
+	width: 80%;
+	border-radius: 30px;
+	// transition-delay: 0.2s;
+}
+
+#sky {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	pointer-events: none;
+	filter: contrast(120%);
+}
+
+#discord::before,
+#discord::after {
+	background: #7289da;
+}
+
+#devfolio::before,
+#devfolio::after {
+	background: #3770ff;
+}
+
+#devfolio iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.01;
+}
+
+@keyframes move-clouds-back {
+	from {
+		background-position: 0 0;
 	}
+	to {
+		background-position: 10000px 0;
+	}
+}
+@-webkit-keyframes move-clouds-back {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 10000px 0;
+	}
+}
+@-moz-keyframes move-clouds-back {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 10000px 0;
+	}
+}
+@-ms-keyframes move-clouds-back {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 10000px 0;
+	}
+}
+
+.clouds {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: -1;
+}
+
+.clouds {
+	background: transparent
+		url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat
+		top center;
+	z-index: -1;
+
+	-moz-animation: move-clouds-back 200s linear infinite;
+	-ms-animation: move-clouds-back 200s linear infinite;
+	-o-animation: move-clouds-back 200s linear infinite;
+	-webkit-animation: move-clouds-back 200s linear infinite;
+	animation: move-clouds-back 200s linear infinite;
 }

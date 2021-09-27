@@ -3,6 +3,7 @@ layout: default
 title: Hackout 2021 — Coming Soon!
 ---
 
+<canvas id="sky"></canvas>
 <header class="container">
 	<div class="header-container">
 		<img src="assets/hackout-logo.svg" id="hackout-logo" alt="" />
@@ -14,16 +15,23 @@ title: Hackout 2021 — Coming Soon!
 			<span>schwag!</span>
 		</p>
 		<div class="cta">
-			<a href="https://discord.gg/e9G7J9E" target="_blank" rel="noreferrer noopener">
-				<button class="header-cta" id="discord">
-					<img src="/assets/svg/discord.svg" alt="Hackout Discord">
-					<div>Join us on Discord</div>
-				</button>
-			</a>
-
-			<div class="apply-button" data-hackathon-slug="hackout2021" data-button-theme="light"
+			<button class="header-cta" id="discord">
+				<a href="https://discord.gg/e9G7J9E" target="_blank" rel="noreferrer noopener">
+					<img src="/assets/svg/discord.svg" alt="Hackout on Discord">
+					<div>Join our Discord</div>
+				</a>
+			</button>
+			<button class="header-cta" id="devfolio">
+				<a>
+					<div class="apply-button" data-hackathon-slug="hackout2021" data-button-theme="light"
 				style="height: 44px; width: 312px"></div>
+					<img src="/assets/svg/devfolio.svg" alt="Hackout on Devfolio">
+					<div>Apply on Devfolio</div>
+				</a>
+			</button>
 		</div>
+
+		<div class="clouds"></div>
 		<div class="title-sponsor">
 			<p>Brought to you by:</p>
 			<a href="https://headout.com" target="_blank" class="title-sponsor">
