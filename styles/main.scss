@@ -1,5 +1,6 @@
 @import "navigation";
 @import "footer";
+@import "locomotive-scroll";
 
 html {
 	font-size: 16px;
@@ -40,8 +41,8 @@ p {
 
 h2 {
 	font-family: "halyard-display";
-	font-weight: 500;
-	font-size: 3rem;
+	font-weight: 400;
+	font-size: 4rem;
 	line-height: 1.125em;
 	text-align: center;
 	letter-spacing: 0.6px;
@@ -339,12 +340,22 @@ button {
 #sky {
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: -1;
 	pointer-events: none;
 	filter: contrast(120%);
+	background: linear-gradient(103.81deg, #350047 0%, #0d013f 71.7%);
+}
+
+#meteors {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
 #discord::before,
@@ -366,60 +377,32 @@ button {
 	opacity: 0.01;
 }
 
-@keyframes move-clouds-back {
-	from {
-		background-position: 0 0;
-	}
-	to {
-		background-position: 10000px 0;
-	}
-}
-@-webkit-keyframes move-clouds-back {
-	from {
-		background-position: 0 0;
-	}
-	to {
-		background-position: 10000px 0;
-	}
-}
-@-moz-keyframes move-clouds-back {
-	from {
-		background-position: 0 0;
-	}
-	to {
-		background-position: 10000px 0;
-	}
-}
-@-ms-keyframes move-clouds-back {
-	from {
-		background-position: 0;
-	}
-	to {
-		background-position: 10000px 0;
-	}
-}
-
-.clouds {
+#headout-blimp {
+	border-radius: 50%;
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #8000ff;
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	display: block;
-	z-index: -1;
+	user-select: none;
+
+	img {
+		width: 60%;
+		height: auto;
+	}
 }
 
-.clouds {
-	background: transparent
-		url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat
-		top center;
-	z-index: -1;
+.header-logo {
+	position: relative;
+	margin: 0 auto;
 
-	-moz-animation: move-clouds-back 200s linear infinite;
-	-ms-animation: move-clouds-back 200s linear infinite;
-	-o-animation: move-clouds-back 200s linear infinite;
-	-webkit-animation: move-clouds-back 200s linear infinite;
-	animation: move-clouds-back 200s linear infinite;
+	.header-wordmark {
+		position: absolute;
+		top: 24%;
+		width: 100%;
+		display: flex;
+		user-select: none;
+	}
 }

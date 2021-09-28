@@ -1,7 +1,7 @@
 {
 	"name": "hackout-2021",
 	"version": "0.1.0",
-	"description": "Landing page for the Hackout 2021 event",
+	"description": "Landing page for Hackout 2021",
 	"author": "Siddharth Jha <siddharth99c@gmail.com>",
 	"license": "MIT",
 	"private": false,
@@ -15,9 +15,13 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^0.11.0",
+		"@lottiefiles/lottie-player": "^1.4.0",
 		"concurrently": "^6.2.0",
+		"gsap": "^3.7.1",
+		"locomotive-scroll": "^4.1.2",
 		"sass": "^1.35.1",
 		"serve": "^12.0.0",
+		"splitting": "^1.0.6",
 		"vanilla-tilt": "^1.7.1",
 		"vite": "^2.3.8"
 	}

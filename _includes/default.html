@@ -15,14 +15,14 @@
 
 <body>
 
+	
 	{% include navigation.html %}
-
-
-	<main id="content">
+	
+	<main id="content" data-scroll-container>
 		{{- content | safe -}}
+		{% include footer.html %}
 	</main>
 
-	{% include footer.html %}
 
 	{% if build.env == "production" %}
 	{% viteScript "scripts/main.js" %}
