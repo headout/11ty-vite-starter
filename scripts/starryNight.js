@@ -48,9 +48,7 @@ const starryNight = () => {
 		stars[i].reset()
 	}
 
-	draw()
-
-	function draw() {
+	const draw = () => {
 		ctx.clearRect(0, 0, width, height)
 
 		let starsLength = stars.length
@@ -65,6 +63,8 @@ const starryNight = () => {
 
 		window.requestAnimationFrame(draw)
 	}
+
+	draw()
 
 	function Star() {
 
