@@ -84,3 +84,9 @@ nav {
 	width: auto;
 	margin-right: 1em;
 }
+
+@media (max-width: 600px) {
+	nav {
+		display: none;
+	}
+}

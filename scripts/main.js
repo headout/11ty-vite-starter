@@ -5,11 +5,17 @@ import splitting from "splitting"
 import starryNight from "./starryNight"
 import LocomotiveScroll from 'locomotive-scroll'
 
-const scroll = new LocomotiveScroll({
-	el: document.querySelector('[data-scroll-container]'),
-	smooth: true,
-	repeat: true
-})
+
+let scroll;
+
+if (window.innerWidth > 600) {
+	scroll = new LocomotiveScroll({
+		el: document.querySelector('[data-scroll-container]'),
+		smooth: true,
+		repeat: true
+	})
+}
+
 
 if (scroll) {
 	const navLinkElements = document.querySelectorAll('.nav-main a')

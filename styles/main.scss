@@ -32,7 +32,7 @@ body {
 
 p {
 	text-align: center;
-	max-width: 36rem;
+	max-width: min(36rem, 80vw);
 	margin: 0 auto;
 	line-height: 1.6em;
 	margin-bottom: 2em;
@@ -123,7 +123,7 @@ header.container {
 }
 
 .header-logo {
-	width: 50rem;
+	width: min(50rem, 80vw);
 	position: relative;
 
 	#header-wordmark {
@@ -145,6 +145,12 @@ header.container {
 		width: 100%;
 		height: auto;
 		opacity: 0.6;
+	}
+}
+
+@media (max-width: 600px) {
+	.header-logo {
+		margin-bottom: 8vh;
 	}
 }
 
@@ -180,6 +186,9 @@ header.container {
 	box-shadow: none;
 	color: white;
 	transition: 0.3s;
+	@media (max-width: 600px) {
+		margin: 0.4rem;
+	}
 }
 
 .header-cta:hover {
@@ -376,12 +385,6 @@ header.container {
 		grid-template-columns: 1fr 1fr;
 		column-gap: 2rem;
 		row-gap: 1.4rem;
-	}
-
-	@media screen and (max-width: 800px) {
-		div {
-			width: 80%;
-		}
 	}
 }
 
