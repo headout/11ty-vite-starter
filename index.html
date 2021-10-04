@@ -4,19 +4,18 @@ title: Hackout 2021 · 29th-31st October 2021
 ---
 
 <canvas id="sky"></canvas>
-<canvas id="meteors"></canvas>
 
 <header class="container" data-scroll-section>
 	<div class="header-container">
 		
 		<div class="header-logo">
-			<div class="header-wordmark">
-				<img src="assets/hackout-logo-new.svg" id="hackout-logo" alt="Hackout Logo" >
+			<div id="header-wordmark">
+				<img src="assets/hackout-logo-new.svg" alt="Hackout Logo"  >
 			</div>
-			<div id="headout-blimp">
+			<!-- <div id="headout-blimp">
 				<img src="assets/svg/headout-blimp.svg" alt="Headout Logo" >
-			</div>
-			<svg width="587" height="222" viewBox="0 0 587 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+			</div> -->
+			<svg id="header-year" width="587" height="222" viewBox="0 0 587 222" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path id="logo-bg-1"
 					d="M152.58 217.681H0V207.591L0.360001 207.331L82.55 147.901L85.47 145.771L100.01 135.241L109.01 128.541L109.08 128.491C121.31 120.654 130.542 108.925 135.286 95.1963C140.031 81.4678 140.011 66.5411 135.23 52.8253C130.448 39.1096 121.185 27.405 108.935 19.6006C96.6841 11.7963 82.1613 8.3476 67.71 9.81113C36.71 12.8611 12.15 38.2311 9.77 69.2711C9.49546 72.9643 9.53225 76.6741 9.88 80.3611L8.12 78.9011C8 77.3111 7.93999 75.7011 7.93999 74.0911C7.93042 63.2534 10.5758 52.5782 15.6449 42.999C20.714 33.4197 28.0525 25.228 37.0188 19.1401C45.985 13.0521 56.3061 9.25318 67.0797 8.07544C77.8533 6.8977 88.7514 8.37699 98.8213 12.384C108.891 16.391 117.826 22.8037 124.845 31.0615C131.864 39.3193 136.753 49.1708 139.086 59.7547C141.418 70.3385 141.122 81.3326 138.224 91.7757C135.325 102.219 129.913 111.793 122.46 119.661L122.1 120.041C118.747 123.383 115.136 126.456 111.3 129.231L89.46 145.011L86.19 147.391L1.71999 208.471V215.951H150.32L152.58 217.681Z"
 					stroke="url(#paint0_linear)" stroke-dasharray="500" stroke-dashoffset="500" stroke-width="2" />
@@ -72,11 +71,12 @@ title: Hackout 2021 · 29th-31st October 2021
 			</svg>
 		</div>
 
-		<h3 class="header-dates" data-splitting>29th-31st October</h3>
-		<p>
-			Headout’s open-track national hackathon where what you build could net you upto ₹3 lakhs worth of prizes, incredible career opportunities and plenty of cool merch!
+		<h3 class="header-dates" data-splitting="chars">29th-31st October 2021</h3>
+		<p class="header-subtitle">
+			Headout’s open-track national hackathon where your project could win you upto ₹3 lakhs worth of prizes, incredible career opportunities and plenty of cool merch!
 		</p>
-		<div class="cta">
+
+		<div class="header-cta-wrapper">
 			<button class="header-cta" id="discord">
 				<a href="https://discord.gg/e9G7J9E" target="_blank" rel="noreferrer noopener">
 					<img src="/assets/svg/discord.svg" alt="Hackout on Discord">
@@ -98,13 +98,6 @@ title: Hackout 2021 · 29th-31st October 2021
 <section class="speakers container" data-scroll-section>
 
 	<div class="section-copy">
-		<lottie-player
-		autoplay
-		loop
-		mode="bounce"
-  src="https://assets6.lottiefiles.com/packages/lf20_u0Fzi2.json"
-  style="width: 320px"
-></lottie-player>
 		<h2 id="speakers">Past Speakers</h2>
 	
 		<p>
@@ -115,8 +108,6 @@ title: Hackout 2021 · 29th-31st October 2021
 			Write to <a href="mailto:hey@hackout.io">hey@hackout.io</a> , we’d love to hear!
 		</p>
 	</div>
-
-
 
 	<div class="speakers-list">
 		{% for speaker in speakers.2020 %}
@@ -132,7 +123,19 @@ title: Hackout 2021 · 29th-31st October 2021
 
 <section class="prizes container" data-scroll-section>
 
-	<h2 id="prizes">Past Prizes</h2>
+	<div class="section-copy">
+		<!-- <lottie-player
+		autoplay
+		loop
+		mode="bounce"
+		src="https://assets6.lottiefiles.com/packages/lf20_u0Fzi2.json"
+		style="width: 320px"
+		id="prizes-anim"
+		>
+		</lottie-player> -->
+		<h2 id="prizes">Past Prizes</h2>
+	</div>
+
 
 	<div class="prizes-primary">
 		<img src="assets/prizes/first.svg" alt="" />
@@ -146,33 +149,35 @@ title: Hackout 2021 · 29th-31st October 2021
 	<div class="section-copy">
 		<h2 id="sponsors">Sponsors</h2>
 		<p>
-			All the great brands and people who helped bring Hackout to life. Want to see your company’s name on the list? We’d love to talk! Shoot us an email at <a href="mailto:hey@hackout.io">sponsors@hackout.io</a> 
+			All the great brands and people who helped bring Hackout to life. <br> Want to see your company’s name on the list? We’d love to talk! <br>Shoot us an email at <a href="mailto:hey@hackout.io">sponsors@hackout.io</a> 
 		</p>
 	</div>
 
-	<div class="sponsors title">
-		<h4>Title Sponsor</h4>
-		<a href="https://www.headout.com" target="_blank" rel="noreferrer"><img src="assets/headout-logo.svg"
-				alt="Headout Logo" /></a>
-	</div>
-
-	<div class="sponsors gold">
-		<h4>Gold Sponsor</h4>
-		<a href="https://www.devfolio.co" target="_blank" rel="noreferrer"><img src="assets/sponsors/devfolio.png"
-				alt="Devfolio Logo" /></a>
-	</div>
-
-	<div class="sponsors silver">
-		<h4>Silver Sponsors</h4>
-		<div>
-			<a href="https://polygon.technology/" target="_blank" rel="noreferrer"><img
-					src="assets/sponsors/polygon.png" alt="Matic Logo" /></a>
-			<a href="https://tezos.com" target="_blank" rel="noreferrer"><img src="assets/sponsors/tezos.png"
-					alt="Tezos Logo" /></a>
-			<a href="https://celo.org/" target="_blank" rel="noreferrer"><img src="assets/sponsors/celo.png"
-					alt="Celo Logo" style="transform: scale(1.5);" /></a>
-			<a href="https://filecoin.io/" target="_blank" rel="noreferrer"><img src="assets/sponsors/filecoin.png"
-				alt="Filecoin Logo" /></a>
+	<div class="sponsor-logo-container">
+		<div class="sponsors title">
+			<h4>Title Sponsor</h4>
+			<a href="https://www.headout.com" target="_blank" rel="noreferrer"><img src="assets/headout-logo.svg"
+					alt="Headout Logo" /></a>
+		</div>
+	
+		<div class="sponsors gold">
+			<h4>Gold Sponsor</h4>
+			<a href="https://www.devfolio.co" target="_blank" rel="noreferrer"><img src="assets/sponsors/devfolio.png"
+					alt="Devfolio Logo" /></a>
+		</div>
+	
+		<div class="sponsors silver">
+			<h4>Silver Sponsors</h4>
+			<div>
+				<a href="https://polygon.technology/" target="_blank" rel="noreferrer"><img
+						src="assets/sponsors/polygon.png" alt="Matic Logo" style="transform: scale(0.9);"/></a>
+				<a href="https://tezos.com" target="_blank" rel="noreferrer"><img src="assets/sponsors/tezos.png"
+						alt="Tezos Logo" /></a>
+				<a href="https://celo.org/" target="_blank" rel="noreferrer"><img src="assets/sponsors/celo.png"
+						alt="Celo Logo" style="transform: scale(1.5);" /></a>
+				<a href="https://filecoin.io/" target="_blank" rel="noreferrer"><img src="assets/sponsors/filecoin.png"
+					alt="Filecoin Logo" /></a>
+			</div>
 		</div>
 	</div>
 </section>

@@ -3,7 +3,6 @@ import "@lottiefiles/lottie-player"
 import anime from "animejs"
 import splitting from "splitting"
 import starryNight from "./starryNight"
-import initMeteorPaint from "./meteorPaint"
 import LocomotiveScroll from 'locomotive-scroll'
 
 const scroll = new LocomotiveScroll({
@@ -26,13 +25,17 @@ if (scroll) {
 
 // splitting()
 
-
 // anime({
 // 	targets: '.header-dates > span > .char',
-// 	translateX: 270,
-// 	delay: anime.stagger(100) // increase delay by 100ms for each elements.
+// 	translateY: -10,
+// 	delay: anime.stagger(100)
 // })
 
+// anime({
+// 	targets: 'nav',
+// 	opacity: 1,
+// 	duration: 1000,
+// 	delay: 5000
+// })
 
 starryNight()
-initMeteorPaint()

@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/ico" href="/assets/favicon/favicon.ico">
-	<link rel="stylesheet" href="https://use.typekit.net/cqq3due.css">
+	<link rel="stylesheet" href="https://use.typekit.net/hka3apl.css">
 	{%- include seo.html -%}
 
 	{% if build.env == "production" %}
@@ -13,14 +13,13 @@
 	{% endif %}
 </head>
 
-<body>
+<body class="loading">
 
 	<main id="content" data-scroll-container>
 		{% include navigation.html %}
 		{{- content | safe -}}
 		{% include footer.html %}
 	</main>
-
 
 	{% if build.env == "production" %}
 	{% viteScript "scripts/main.js" %}
