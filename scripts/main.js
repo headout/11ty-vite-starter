@@ -1,15 +1,47 @@
-// this import will transpile sass/scss to css
-import "../styles/main.scss";
+import "../styles/main.scss"
+import "@lottiefiles/lottie-player"
+import anime from "animejs"
+import splitting from "splitting"
+import starryNight from "./starryNight"
+import LocomotiveScroll from 'locomotive-scroll'
 
-function TestVite() {
-	setTimeout(() => {
-		if (import.meta.env.DEV === true) {
-			console.log("vite is working!");
-		}
-		if (import.meta.env.PROD === true) {
-			console.log("vite built, and 11ty injected correct script tag");
-		}
-	}, 400);
+
+let scroll;
+
+if (window.innerWidth > 600) {
+	scroll = new LocomotiveScroll({
+		el: document.querySelector('[data-scroll-container]'),
+		smooth: true,
+		repeat: true
+	})
 }
 
-TestVite();
+
+if (scroll) {
+	const navLinkElements = document.querySelectorAll('.nav-main a')
+
+	navLinkElements.forEach(linkEl => {
+		linkEl.addEventListener('click', () => {
+			console.log(linkEl.dataset.link)
+			scroll.scrollTo(document.querySelector(linkEl.dataset.link))
+		})
+	})
+
+}
+
+// splitting()
+
+// anime({
+// 	targets: '.header-dates > span > .char',
+// 	translateY: -10,
+// 	delay: anime.stagger(100)
+// })
+
+// anime({
+// 	targets: 'nav',
+// 	opacity: 1,
+// 	duration: 1000,
+// 	delay: 5000
+// })
+
+starryNight()
