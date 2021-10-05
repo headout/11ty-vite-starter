@@ -1,7 +1,6 @@
 @import "navigation";
 @import "footer";
 @import "locomotive-scroll";
-@import "loading";
 
 html {
 	font-size: 18px;
@@ -131,12 +130,12 @@ header.container {
 		padding: 0 8%;
 		height: auto;
 		margin: 0 auto;
-		top: 20%;
+		top: 10%;
 		position: absolute;
 		z-index: 1;
 	}
 
-	#header-wordmark > img {
+	#header-wordmark > svg {
 		width: 100%;
 		height: auto;
 	}
