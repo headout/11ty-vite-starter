@@ -9,6 +9,7 @@ import LocomotiveScroll from 'locomotive-scroll'
 let scroll;
 
 const introAnim = () => {
+
 	const intro = anime.timeline({
 		targets: '#header-year > path',
 		strokeDashoffset: [anime.setDashoffset, 0],
@@ -20,9 +21,9 @@ const introAnim = () => {
 		translateX: [10, 0],
 		opacity: [0, 1],
 		duration: 1200,
-		delay: anime.stagger(-100),
+		delay: anime.stagger(100, { direction: 'reverse' }),
 		easing: 'easeInOutQuad'
-	}, 2000).add({
+	}).add({
 		targets: '.header-dates > span > .char',
 		translateY: [0, -10],
 		easing: 'easeInOutSine',
