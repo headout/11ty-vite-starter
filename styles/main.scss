@@ -451,3 +451,22 @@ span {
 #prizes-anim {
   position: absolute;
 }
+
+.faq {
+  .faq-title {
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+  }
+
+  .faq-content {
+    margin: 0;
+    width: 100%;
+    display: contents;
+    padding-bottom: 1em;
+  }
+
+  details[open] {
+    margin-bottom: 1em;
+  }
+}
