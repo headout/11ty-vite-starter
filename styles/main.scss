@@ -293,6 +293,7 @@ header.container {
   display: grid;
   justify-content: center;
   align-items: flex-start;
+  color: #ffffff;
 }
 
 .speaker-card-mini img {
@@ -322,6 +323,7 @@ header.container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1.4rem;
+  row-gap: 1.4rem;
   z-index: -100;
 
   @media screen and (max-width: 600px) {
@@ -373,6 +375,10 @@ header.container {
   img {
     margin: 0 1rem;
     width: 14rem;
+
+    @media screen and (max-width: 600px) {
+      width: 10rem;
+    }
   }
 }
 
