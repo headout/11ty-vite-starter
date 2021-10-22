@@ -65,7 +65,7 @@ title: Hackout 2021 · 25th-31st October 2021
 
 		<h3 class="header-dates" data-splitting="chars">25th-31st October 2021</h3>
 		<p class="header-subtitle">
-			Headout presents it's annual open-track national hackathon - Hackout. Win prizes worth 7 lacs, hack community tokens, tons of cool merch and your next big career move!
+			Headout presents it's annual open-track international hackathon - Hackout. Win prizes worth ₹7 lakh, hack community tokens, NFTs, tons of cool merch and your next big career move!
 		</p>
 
 		<div class="header-cta-wrapper">
@@ -103,11 +103,11 @@ title: Hackout 2021 · 25th-31st October 2021
 
 	<div class="speakers-list">
 		{% for speaker in speakers.2021 %}
-		<div class="speaker-card-mini">
+		<a href="{{ speaker.url }}" title=" {{speaker.name}} " target="_blank" rel="noreferrer" class="speaker-card-mini">
 			<img src="assets{{ speaker.image }}" alt="{{ speaker.name }}">
 			<div class="speaker-name">{{ speaker.name }}</div>
 			<div class="speaker-title">{{ speaker.title }}</div>
-		</div>
+		</a>
 		{% endfor %}
 	</div>
 
@@ -116,23 +116,28 @@ title: Hackout 2021 · 25th-31st October 2021
 <section class="prizes container" data-scroll-section>
 
 	<div class="section-copy">
-		<!-- <lottie-player
-		autoplay
-		loop
-		mode="bounce"
-		src="https://assets6.lottiefiles.com/packages/lf20_u0Fzi2.json"
-		style="width: 320px"
-		id="prizes-anim"
-		>
-		</lottie-player> -->
-		<h2 id="prizes">Past Prizes</h2>
+		<h2 id="prizes">Prizes</h2>
 	</div>
 
 
 	<div class="prizes-primary">
-		<img src="assets/prizes/first.svg" alt="" />
-		<img src="assets/prizes/second.svg" alt="" />
-		<img src="assets/prizes/third.svg" alt="" />
+		<img src="/assets/01.png" alt="" />
+		<img src="/assets/02.png" alt="" />
+		<img src="/assets/03.png" alt="" />
+		<img src="/assets/Best Design.png" alt="" />
+		<img src="/assets/random01.png" alt="" />
+		<img src="/assets/random02.png" alt="" />
+		<img src="/assets/random03.png" alt="" />
+		<img src="/assets/Custom01.png" alt="" />
+		<img src="/assets/Custom02.png" alt="" />
+		<img src="/assets/Custom03.png" alt="" />
+		<img src="/assets/Custom04.png" alt="" />
+		<img src="/assets/Custom05.png" alt="" />
+		<img src="/assets/Custom06.png" alt="" />
+		<img src="/assets/sponsor01.png" alt="" />
+		<img src="/assets/sponsor02.png" alt="" />
+		<img src="/assets/sponsor03.png" alt="" />
+		<img src="/assets/sponsor04.png" alt="" />
 	</div>
 </section>
 
@@ -175,5 +180,20 @@ title: Hackout 2021 · 25th-31st October 2021
 					alt="Filecoin Logo" /></a>
 			</div>
 		</div>
+	</div>
+</section>
+
+<section class="faqs container" data-scroll-section>
+	<div class="section-copy">
+		<h2 id="prizes">FAQs</h2>
+	</div>
+
+	<div class="faq">
+		{% for faq in faqs.2021 %}
+			<details>
+				<summary class="faq-title">{{ faq.title }}</summary>
+				<p class="faq-content">{{ faq.content }}</p>
+		 	</details>
+		{% endfor %}
 	</div>
 </section>
