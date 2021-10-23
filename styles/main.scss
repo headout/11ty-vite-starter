@@ -452,6 +452,16 @@ span {
   position: absolute;
 }
 
+.faqs {
+  @media screen and (min-width: 600px) {
+    width: 40rem;
+
+    .faq {
+      margin-left: 2rem;
+    }
+  }
+}
+
 .faq {
   .faq-title {
     font-size: 1.6em;
