@@ -480,3 +480,48 @@ span {
     margin-bottom: 1em;
   }
 }
+
+.schedule {
+  @media screen and (min-width: 600px) {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .schedule-container {
+      margin-left: 2rem;
+    }
+  }
+}
+
+.schedule-container {
+  > div {
+  }
+
+  .date {
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #ff00a8;
+    margin: 2rem 0 0;
+  }
+
+  .schedule-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 1rem 0;
+
+    @media screen and (max-width: 600px) {
+      grid-template-columns: 2fr 3fr;
+    }
+
+    .time {
+      font-weight: 400;
+    }
+
+    .schedule-title {
+      margin-left: 2rem;
+    }
+  }
+}
