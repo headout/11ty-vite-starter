@@ -93,10 +93,10 @@
 	],
 	"2021": [
 		{
-			"name": "Rachit Watts",
-			"image": "/speakers/rachit.jpeg",
-			"url": "https://twitter.com/rachitwatts",
-			"title": "VP Engineering, Headout"
+			"name": "Vikram Jit Singh",
+			"image": "/speakers/vikram.jpg",
+			"url": "https://twitter.com/vjsingh102",
+			"title": "CTO, Headout"
 		},
 		{
 			"name": "Jon Skeet",
@@ -117,6 +117,12 @@
 			"title": "iOS Engineer, PhonePe"
 		},
 		{
+			"name": "Rachit Watts",
+			"image": "/speakers/rachit.jpeg",
+			"url": "https://twitter.com/rachitwatts",
+			"title": "VP Engineering, Headout"
+		},
+		{
 			"name": "Aakash Goel",
 			"image": "/speakers/aakashGoel.jpg",
 			"url": "https://twitter.com/aakashlpin",
@@ -129,6 +135,12 @@
 			"title": "DevOps Engineer, Fullstaq"
 		},
 		{
+			"name": "Varun Khona",
+			"image": "/speakers/varun.jpg",
+			"url": "https://twitter.com/varunkhona",
+			"title": "CEO, Headout"
+		},
+		{
 			"name": "Utkarsh Dixit",
 			"image": "/speakers/utkarsh.jpeg",
 			"url": "https://twitter.com/utkarshdix",
@@ -139,6 +151,12 @@
 			"image": "/speakers/gautham.jpg",
 			"url": "https://twitter.com/gauthamzzz",
 			"title": "Founder, Polynomial"
+		},
+		{
+			"name": "Parag Jain",
+			"image": "/speakers/parag.jpeg",
+			"url": "https://www.linkedin.com/in/paragjain2/",
+			"title": "VP Marketing and Ops, Headout"
 		}
 	]
 }

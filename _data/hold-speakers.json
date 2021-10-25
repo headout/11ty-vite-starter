@@ -5,24 +5,6 @@
 			"image": "/speakers/sidharth.jpeg",
 			"url": "https://twitter.com/kingsidharth",
 			"title": "Head of Design, Headout"
-		},
-		{
-			"name": "Varun Khona",
-			"image": "/speakers/varun.jpg",
-			"url": "https://twitter.com/varunkhona",
-			"title": "CEO, Headout"
-		},
-		{
-			"name": "Parag Jain",
-			"image": "/speakers/parag.jpeg",
-			"url": "https://www.linkedin.com/in/paragjain2/",
-			"title": "VP Marketing and Ops, Headout"
-		},
-		{
-			"name": "Vikram Jit Singh",
-			"image": "/speakers/vikram.jpg",
-			"url": "https://twitter.com/vjsingh102",
-			"title": "CTO, Headout"
 		}
 	]
 }
