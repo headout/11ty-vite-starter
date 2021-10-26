@@ -157,6 +157,36 @@
 			"image": "/speakers/parag.jpeg",
 			"url": "https://www.linkedin.com/in/paragjain2/",
 			"title": "VP Marketing and Ops, Headout"
+		},
+    {
+			"name": "Pooja Malvi",
+			"image": "/speakers/pooja.jpg",
+			"url": "https://www.linkedin.com/in/malvi-pooja/",
+			"title": "Product Designer, Lyearn"
+		},
+    {
+			"name": "Neha Sharma",
+			"image": "/speakers/neha.jpg",
+			"url": "https://www.linkedin.com/in/nehha/",
+			"title": "Engineering Manager, Tesco Bengaluru"
+		},
+    {
+			"name": "Kaashvi Saxena",
+			"image": "/speakers/kaashvi.jpg",
+			"url": "https://www.linkedin.com/in/kaashvisaxena/",
+			"title": "Product Manager, CRED"
+		},
+    {
+			"name": "Kaushal Karkhanis",
+			"image": "/speakers/kaushal.jpg",
+			"url": "https://www.linkedin.com/in/kaushal/",
+			"title": "CCO, Gusto Design Studio"
+		},
+    {
+			"name": "Pratim Bhosale",
+			"image": "/speakers/pratim.jpg",
+			"url": "https://www.linkedin.com/in/pratim-bhosale/",
+			"title": "Software Developer, UBS"
 		}
 	]
 }
