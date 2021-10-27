@@ -111,22 +111,10 @@
 			"title": "Frontend Lead, Pushowl"
 		},
 		{
-			"name": "Bhagat Singh",
-			"image": "/speakers/bhagatSingh.jpg",
-			"url": "https://twitter.com/soulful_swift",
-			"title": "iOS Engineer, PhonePe"
-		},
-		{
-			"name": "Rachit Watts",
-			"image": "/speakers/rachit.jpeg",
-			"url": "https://twitter.com/rachitwatts",
-			"title": "VP Engineering, Headout"
-		},
-		{
-			"name": "Aakash Goel",
-			"image": "/speakers/aakashGoel.jpg",
-			"url": "https://twitter.com/aakashlpin",
-			"title": "Building SignalX"
+			"name": "Pooja Malvi",
+			"image": "/speakers/pooja.jpg",
+			"url": "https://www.linkedin.com/in/malvi-pooja/",
+			"title": "Product Designer, Lyearn"
 		},
 		{
 			"name": "Wiard van Rij",
@@ -135,10 +123,28 @@
 			"title": "DevOps Engineer, Fullstaq"
 		},
 		{
+			"name": "Neha Sharma",
+			"image": "/speakers/neha.jpg",
+			"url": "https://www.linkedin.com/in/nehha/",
+			"title": "Engineering Manager, Tesco Bengaluru"
+		},
+		{
+			"name": "Aakash Goel",
+			"image": "/speakers/aakashGoel.jpg",
+			"url": "https://twitter.com/aakashlpin",
+			"title": "Building SignalX"
+		},
+		{
 			"name": "Varun Khona",
 			"image": "/speakers/varun.jpg",
 			"url": "https://twitter.com/varunkhona",
 			"title": "CEO, Headout"
+		},
+		{
+			"name": "Rachit Watts",
+			"image": "/speakers/rachit.jpeg",
+			"url": "https://twitter.com/rachitwatts",
+			"title": "VP Engineering, Headout"
 		},
 		{
 			"name": "Utkarsh Dixit",
@@ -153,40 +159,28 @@
 			"title": "Founder, Polynomial"
 		},
 		{
-			"name": "Parag Jain",
-			"image": "/speakers/parag.jpeg",
-			"url": "https://www.linkedin.com/in/paragjain2/",
-			"title": "VP Marketing and Ops, Headout"
+			"name": "Bhagat Singh",
+			"image": "/speakers/bhagatSingh.jpg",
+			"url": "https://twitter.com/soulful_swift",
+			"title": "iOS Engineer, PhonePe"
 		},
-    {
-			"name": "Pooja Malvi",
-			"image": "/speakers/pooja.jpg",
-			"url": "https://www.linkedin.com/in/malvi-pooja/",
-			"title": "Product Designer, Lyearn"
-		},
-    {
-			"name": "Neha Sharma",
-			"image": "/speakers/neha.jpg",
-			"url": "https://www.linkedin.com/in/nehha/",
-			"title": "Engineering Manager, Tesco Bengaluru"
-		},
-    {
-			"name": "Kaashvi Saxena",
-			"image": "/speakers/kaashvi.jpg",
-			"url": "https://www.linkedin.com/in/kaashvisaxena/",
-			"title": "Product Manager, CRED"
-		},
-    {
+		{
 			"name": "Kaushal Karkhanis",
 			"image": "/speakers/kaushal.jpg",
 			"url": "https://www.linkedin.com/in/kaushal/",
 			"title": "CCO, Gusto Design Studio"
 		},
-    {
+		{
 			"name": "Pratim Bhosale",
 			"image": "/speakers/pratim.jpg",
 			"url": "https://www.linkedin.com/in/pratim-bhosale/",
 			"title": "Software Developer, UBS"
+		},
+		{
+			"name": "Parag Jain",
+			"image": "/speakers/parag.jpeg",
+			"url": "https://www.linkedin.com/in/paragjain2/",
+			"title": "VP Marketing and Ops, Headout"
 		}
 	]
 }
