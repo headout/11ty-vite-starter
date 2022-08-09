@@ -1,20 +1,21 @@
 import "../styles/main.scss"
-import "@lottiefiles/lottie-player"
 import anime from "animejs"
 import splitting from "splitting"
 import starryNight from "./starryNight"
 import LocomotiveScroll from 'locomotive-scroll'
 
-
 let scroll;
 
 const introAnim = () => {
-	const intro = anime.timeline({
+
+	anime({
 		targets: '#header-year > path',
 		strokeDashoffset: [anime.setDashoffset, 0],
 		easing: 'easeInOutSine',
 		duration: 2000,
-	}).add({
+	})
+
+	anime({
 		targets: '#header-wordmark > svg > path',
 		translateY: [50, 0],
 		translateX: [10, 0],
@@ -22,7 +23,9 @@ const introAnim = () => {
 		duration: 1200,
 		delay: anime.stagger(100, { direction: 'reverse' }),
 		easing: 'easeInOutQuad'
-	}).add({
+	})
+
+	anime.timeline({
 		targets: '.header-dates > span > .char',
 		translateY: [0, -10],
 		easing: 'easeInOutSine',
@@ -67,7 +70,6 @@ if (scroll) {
 
 	navLinkElements.forEach(linkEl => {
 		linkEl.addEventListener('click', () => {
-			console.log(linkEl.dataset.link)
 			scroll.scrollTo(document.querySelector(linkEl.dataset.link))
 		})
 	})
