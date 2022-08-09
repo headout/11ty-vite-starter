@@ -9,7 +9,6 @@ import LocomotiveScroll from 'locomotive-scroll'
 let scroll;
 
 const introAnim = () => {
-
 	const intro = anime.timeline({
 		targets: '#header-year > path',
 		strokeDashoffset: [anime.setDashoffset, 0],
