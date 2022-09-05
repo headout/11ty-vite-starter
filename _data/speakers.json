@@ -1,186 +1,186 @@
 {
-	"2020": [
-		{
-			"name": "Vikram Jit Singh",
-			"image": "/speakers/vikram.jpg",
-			"url": "https://twitter.com/vjsingh102",
-			"title": "CTO, Headout"
-		},
-		{
-			"name": "Shivam Tripathi",
-			"image": "/speakers/shivamTripathi.jpeg",
-			"url": "https://www.linkedin.com/in/shivam-mani-tripathi/",
-			"title": "CTO, Privyr"
-		},
-		{
-			"name": "Bhagat Singh",
-			"image": "/speakers/bhagatSingh.jpg",
-			"url": "https://twitter.com/soulful_swift",
-			"title": "iOS Engineer, PhonePe"
-		},
-		{
-			"name": "Abhinav Chhikara",
-			"image": "/speakers/abhinavChhikara.jpg",
-			"url": "https://twitter.com/abnux",
-			"title": "Founder, 10K Designers"
-		},
-		{
-			"name": "Swaathi Kakarla",
-			"image": "/speakers/swaathiKarkala.jpg",
-			"url": "https://twitter.com/imswaathik",
-			"title": "CTO, Skcript"
-		},
-		{
-			"name": "Aakash Goel",
-			"image": "/speakers/aakashGoel.jpg",
-			"url": "https://twitter.com/aakashlpin",
-			"title": "Engineering Manager, Headout"
-		},
-		{
-			"name": "Madhuri Maram",
-			"image": "/speakers/madhuriMaram.JPG",
-			"url": "https://www.twitter.com/iruhdam24",
-			"title": "Co-Founder, Xperian"
-		},
-		{
-			"name": "Varun Khona",
-			"image": "/speakers/varun.jpg",
-			"url": "https://twitter.com/varunkhona",
-			"title": "CEO, Headout"
-		},
-		{
-			"name": "Shivansh Saini",
-			"image": "/speakers/shivansh.jpg",
-			"url": "https://www.linkedin.com/in/shivanshs9/",
-			"title": "Engineering Intern, Headout"
-		},
-		{
-			"name": "Pranjal Paliwal",
-			"image": "/speakers/pranjal.jpg",
-			"url": "https://twitter.com/TheBetterClever",
-			"title": "Software Engineer, Headout"
-		},
-		{
-			"name": "Sudhanshu Shekhar",
-			"image": "/speakers/sudhanshuShekhar.jpg",
-			"url": "https://www.linkedin.com/in/sudshekhar02/",
-			"title": "Volunteer, ProductNation & iSpirit"
-		},
-		{
-			"name": "Rachit Watts",
-			"image": "/speakers/rachit.jpeg",
-			"url": "https://twitter.com/rachitwatts",
-			"title": "VP Engineering, Headout"
-		},
-		{
-			"name": "Aayush Rai",
-			"image": "/speakers/aayushRai.jpeg",
-			"url": "https://www.linkedin.com/in/aayush-rai-b2034a9/",
-			"title": "CEO, Inito"
-		},
-		{
-			"name": "Niteesh Yadav",
-			"image": "/speakers/niteeshYadav.jpg",
-			"url": "https://www.twitter.com/niteesh22",
-			"title": "Product Designer, Headout"
-		},
-		{
-			"name": "Himanshu Dixit",
-			"image": "/speakers/himanshu.jpeg",
-			"url": "https://twitter.com/1x_engineer",
-			"title": "Software Engineer, Headout"
-		}
-	],
-	"2021": [
-		{
-			"name": "Vikram Jit Singh",
-			"image": "/speakers/vikram.jpg",
-			"url": "https://twitter.com/vjsingh102",
-			"title": "CTO, Headout"
-		},
-		{
-			"name": "Jon Skeet",
-			"image": "/speakers/jonskeet.jpeg",
-			"url": "https://www.linkedin.com/in/jon-skeet-ba3800/",
-			"title": "Staff Developer Relations Engineer, Google"
-		},
-		{
-			"name": "Kushagra Gour",
-			"image": "/speakers/kushagra.jpg",
-			"url": "https://twitter.com/chinchang457/",
-			"title": "Frontend Lead, Pushowl"
-		},
-		{
-			"name": "Pooja Malvi",
-			"image": "/speakers/pooja.jpg",
-			"url": "https://www.linkedin.com/in/malvi-pooja/",
-			"title": "Product Designer, Lyearn"
-		},
-		{
-			"name": "Wiard van Rij",
-			"image": "/speakers/wiard.jpeg",
-			"url": "https://www.linkedin.com/in/wiard-van-rij/",
-			"title": "DevOps Engineer, Fullstaq"
-		},
-		{
-			"name": "Neha Sharma",
-			"image": "/speakers/neha.jpg",
-			"url": "https://www.linkedin.com/in/nehha/",
-			"title": "Engineering Manager, Tesco Bengaluru"
-		},
-		{
-			"name": "Aakash Goel",
-			"image": "/speakers/aakashGoel.jpg",
-			"url": "https://twitter.com/aakashlpin",
-			"title": "Building SignalX"
-		},
-		{
-			"name": "Varun Khona",
-			"image": "/speakers/varun.jpg",
-			"url": "https://twitter.com/varunkhona",
-			"title": "CEO, Headout"
-		},
-		{
-			"name": "Rachit Watts",
-			"image": "/speakers/rachit.jpeg",
-			"url": "https://twitter.com/rachitwatts",
-			"title": "VP Engineering, Headout"
-		},
-		{
-			"name": "Utkarsh Dixit",
-			"image": "/speakers/utkarsh.jpeg",
-			"url": "https://twitter.com/utkarshdix",
-			"title": "Co-Founder, Crusher.dev"
-		},
-		{
-			"name": "Gautham",
-			"image": "/speakers/gautham.jpg",
-			"url": "https://twitter.com/gauthamzzz",
-			"title": "Founder, Polynomial"
-		},
-		{
-			"name": "Bhagat Singh",
-			"image": "/speakers/bhagatSingh.jpg",
-			"url": "https://twitter.com/soulful_swift",
-			"title": "iOS Engineer, PhonePe"
-		},
-		{
-			"name": "Kaushal Karkhanis",
-			"image": "/speakers/kaushal.jpg",
-			"url": "https://www.linkedin.com/in/kaushal/",
-			"title": "CCO, Gusto Design Studio"
-		},
-		{
-			"name": "Pratim Bhosale",
-			"image": "/speakers/pratim.jpg",
-			"url": "https://www.linkedin.com/in/pratim-bhosale/",
-			"title": "Upcoming Developer Advocate, Dasha.ai"
-		},
-		{
-			"name": "Parag Jain",
-			"image": "/speakers/parag.jpeg",
-			"url": "https://www.linkedin.com/in/paragjain2/",
-			"title": "VP Marketing and Ops, Headout"
-		}
-	]
+  "2020": [
+    {
+      "name": "Vikram Jit Singh",
+      "image": "/speakers/vikram.jpg",
+      "url": "https://twitter.com/vjsingh102",
+      "title": "CTO, Headout"
+    },
+    {
+      "name": "Shivam Tripathi",
+      "image": "/speakers/shivamTripathi.jpeg",
+      "url": "https://www.linkedin.com/in/shivam-mani-tripathi/",
+      "title": "CTO, Privyr"
+    },
+    {
+      "name": "Bhagat Singh",
+      "image": "/speakers/bhagatSingh.jpg",
+      "url": "https://twitter.com/soulful_swift",
+      "title": "iOS Engineer, PhonePe"
+    },
+    {
+      "name": "Abhinav Chhikara",
+      "image": "/speakers/abhinavChhikara.jpg",
+      "url": "https://twitter.com/abnux",
+      "title": "Founder, 10K Designers"
+    },
+    {
+      "name": "Swaathi Kakarla",
+      "image": "/speakers/swaathiKarkala.jpg",
+      "url": "https://twitter.com/imswaathik",
+      "title": "CTO, Skcript"
+    },
+    {
+      "name": "Aakash Goel",
+      "image": "/speakers/aakashGoel.jpg",
+      "url": "https://twitter.com/aakashlpin",
+      "title": "EM, Headout"
+    },
+    {
+      "name": "Madhuri Maram",
+      "image": "/speakers/madhuriMaram.JPG",
+      "url": "https://www.twitter.com/iruhdam24",
+      "title": "Co-Founder, Xperian"
+    },
+    {
+      "name": "Varun Khona",
+      "image": "/speakers/varun.jpg",
+      "url": "https://twitter.com/varunkhona",
+      "title": "CEO, Headout"
+    },
+    {
+      "name": "Shivansh Saini",
+      "image": "/speakers/shivansh.jpg",
+      "url": "https://www.linkedin.com/in/shivanshs9/",
+      "title": "Engineering Intern, Headout"
+    },
+    {
+      "name": "Pranjal Paliwal",
+      "image": "/speakers/pranjal.jpg",
+      "url": "https://twitter.com/TheBetterClever",
+      "title": "Software Engineer, Headout"
+    },
+    {
+      "name": "Sudhanshu Shekhar",
+      "image": "/speakers/sudhanshuShekhar.jpg",
+      "url": "https://www.linkedin.com/in/sudshekhar02/",
+      "title": "Volunteer, ProductNation & iSpirit"
+    },
+    {
+      "name": "Rachit Watts",
+      "image": "/speakers/rachit.jpeg",
+      "url": "https://twitter.com/rachitwatts",
+      "title": "VP Engineering, Headout"
+    },
+    {
+      "name": "Aayush Rai",
+      "image": "/speakers/aayushRai.jpeg",
+      "url": "https://www.linkedin.com/in/aayush-rai-b2034a9/",
+      "title": "CEO, Inito"
+    },
+    {
+      "name": "Niteesh Yadav",
+      "image": "/speakers/niteeshYadav.jpg",
+      "url": "https://www.twitter.com/niteesh22",
+      "title": "Product Designer, Headout"
+    },
+    {
+      "name": "Himanshu Dixit",
+      "image": "/speakers/himanshu.jpeg",
+      "url": "https://twitter.com/1x_engineer",
+      "title": "Software Engineer, Headout"
+    }
+  ],
+  "2021": [
+    {
+      "name": "Vikram Jit Singh",
+      "image": "/speakers/vikram.jpg",
+      "url": "https://twitter.com/vjsingh102",
+      "title": "CTO, Headout"
+    },
+    {
+      "name": "Jon Skeet",
+      "image": "/speakers/jonskeet.jpeg",
+      "url": "https://www.linkedin.com/in/jon-skeet-ba3800/",
+      "title": "Staff DevRel Engineer, Google"
+    },
+    {
+      "name": "Kushagra Gour",
+      "image": "/speakers/kushagra.jpg",
+      "url": "https://twitter.com/chinchang457/",
+      "title": "Frontend Lead, Pushowl"
+    },
+    {
+      "name": "Pooja Malvi",
+      "image": "/speakers/pooja.jpg",
+      "url": "https://www.linkedin.com/in/malvi-pooja/",
+      "title": "Product Designer, Lyearn"
+    },
+    {
+      "name": "Wiard van Rij",
+      "image": "/speakers/wiard.jpeg",
+      "url": "https://www.linkedin.com/in/wiard-van-rij/",
+      "title": "DevOps Engineer, Fullstaq"
+    },
+    {
+      "name": "Neha Sharma",
+      "image": "/speakers/neha.jpg",
+      "url": "https://www.linkedin.com/in/nehha/",
+      "title": "Engineering Manager, Tesco Bengaluru"
+    },
+    {
+      "name": "Aakash Goel",
+      "image": "/speakers/aakashGoel.jpg",
+      "url": "https://twitter.com/aakashlpin",
+      "title": "Building SignalX"
+    },
+    {
+      "name": "Varun Khona",
+      "image": "/speakers/varun.jpg",
+      "url": "https://twitter.com/varunkhona",
+      "title": "CEO, Headout"
+    },
+    {
+      "name": "Rachit Watts",
+      "image": "/speakers/rachit.jpeg",
+      "url": "https://twitter.com/rachitwatts",
+      "title": "VP Engineering, Headout"
+    },
+    {
+      "name": "Utkarsh Dixit",
+      "image": "/speakers/utkarsh.jpeg",
+      "url": "https://twitter.com/utkarshdix",
+      "title": "Co-Founder, Crusher.dev"
+    },
+    {
+      "name": "Gautham",
+      "image": "/speakers/gautham.jpg",
+      "url": "https://twitter.com/gauthamzzz",
+      "title": "Founder, Polynomial"
+    },
+    {
+      "name": "Bhagat Singh",
+      "image": "/speakers/bhagatSingh.jpg",
+      "url": "https://twitter.com/soulful_swift",
+      "title": "iOS Engineer, PhonePe"
+    },
+    {
+      "name": "Kaushal Karkhanis",
+      "image": "/speakers/kaushal.jpg",
+      "url": "https://www.linkedin.com/in/kaushal/",
+      "title": "CCO, Gusto Design Studio"
+    },
+    {
+      "name": "Pratim Bhosale",
+      "image": "/speakers/pratim.jpg",
+      "url": "https://www.linkedin.com/in/pratim-bhosale/",
+      "title": "Developer Advocate, Dasha.ai"
+    },
+    {
+      "name": "Parag Jain",
+      "image": "/speakers/parag.jpeg",
+      "url": "https://www.linkedin.com/in/paragjain2/",
+      "title": "VP Marketing and Ops, Headout"
+    }
+  ]
 }
