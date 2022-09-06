@@ -226,7 +226,7 @@ header.container {
   margin-left: 0.6rem;
   margin-bottom: 0.6rem;
 }
-.prize-tittle{
+.prize-tittle {
   text-align: left;
   padding-left: 32px;
   margin: 0;
@@ -237,7 +237,7 @@ header.container {
   background: white;
   color: black;
   padding: 1px 0;
-  
+
   hr {
     margin: 2rem 0;
   }
@@ -307,7 +307,7 @@ header.container {
 }
 
 .sponsors.title {
-  background: #C4C4C4;
+  background: #c4c4c4;
   margin: 16px auto;
   width: fit-content;
   border-radius: 4px;
@@ -325,7 +325,7 @@ header.container {
 
   a {
     border-radius: 4px;
-    background: #C4C4C4;
+    background: #c4c4c4;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -346,7 +346,7 @@ header.container {
 }
 
 .sponsors.silver {
-  background: #C4C4C4;
+  background: #c4c4c4;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -495,4 +495,59 @@ span {
       margin-left: 2rem;
     }
   }
+}
+
+.contact-container {
+  width: fit-content;
+  margin: 2rem 0;
+  display: flex;
+
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+    row-gap: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+  }
+
+  button > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    margin: 2rem 0 0;
+  }
+}
+
+.contact-container-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.contact-right-container {
+  align-items: center;
+  flex-wrap: wrap;
+  background: #f0f0f0;
+  color: #0e081c;
+
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+    row-gap: 2rem;
+    width: 100%;
+  }
+  .contact-title {
+    margin: 0;
+    font-size: 3rem;
+  }
+  .contact-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.contact-cta {
+  margin-top: 2.66rem;
+  position: relative;
+  height: 56px;
+  padding: 0rem 1.66rem;
 }
