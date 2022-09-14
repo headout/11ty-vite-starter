@@ -24,33 +24,6 @@ const introAnim = () => {
 		delay: anime.stagger(100, { direction: 'reverse' }),
 		easing: 'easeInOutQuad'
 	})
-
-	anime.timeline({
-		targets: '.header-dates > span > .char',
-		translateY: [0, -10],
-		easing: 'easeInOutSine',
-		duration: 200,
-		opacity: [0, 1],
-		delay: (el, i) => i * 10
-	}, '+=400').add({
-		targets: '.header-subtitle',
-		easing: 'easeInOutQuad',
-		translateY: [10, 0],
-		opacity: [0, 1],
-		duration: 400,
-	}, '+=800').add({
-		targets: '.header-cta-wrapper',
-		easing: 'easeInOutQuad',
-		opacity: [0, 1],
-		translateY: [10, 0],
-		duration: 200
-	}).add({
-		targets: 'nav',
-		easing: 'easeInOutExpo',
-		opacity: [0, 1],
-		translateY: [-20, 0],
-		duration: 1200,
-	})
 }
 
 if (window.innerWidth > 600) {
@@ -60,19 +33,7 @@ if (window.innerWidth > 600) {
 		repeat: true
 	})
 
-	splitting()
 	introAnim()
-}
-
-
-if (scroll) {
-	const navLinkElements = document.querySelectorAll('.nav-main a')
-
-	navLinkElements.forEach(linkEl => {
-		linkEl.addEventListener('click', () => {
-			scroll.scrollTo(document.querySelector(linkEl.dataset.link))
-		})
-	})
 }
 
 starryNight()
