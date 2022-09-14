@@ -135,7 +135,7 @@ header.container {
     z-index: 1;
   }
 
-  #header-wordmark > svg {
+  #header-wordmark>svg {
     width: 100%;
     height: auto;
   }
@@ -168,7 +168,7 @@ header.container {
 
 .header-cta-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  // grid-template-columns: 1fr 1fr;
   align-items: center;
   column-gap: 1rem;
   width: max-content;
@@ -189,6 +189,7 @@ header.container {
   box-shadow: none;
   color: white;
   transition: 0.3s;
+
   @media (max-width: 600px) {
     margin: 0.4rem;
   }
