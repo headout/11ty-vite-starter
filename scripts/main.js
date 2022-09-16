@@ -1,7 +1,7 @@
 import "../styles/main.scss";
 import anime from "animejs";
 import splitting from "splitting";
-import LocomotiveScroll from "locomotive-scroll";
+// import LocomotiveScroll from "locomotive-scroll";
 
 let scroll;
 
@@ -61,16 +61,16 @@ const introAnim = () => {
     });
 };
 
-if (window.innerWidth > 600) {
-  scroll = new LocomotiveScroll({
-    el: document.querySelector("[data-scroll-container]"),
-    smooth: true,
-    repeat: true,
-  });
+// if (window.innerWidth > 600) {
+//   scroll = new LocomotiveScroll({
+//     el: document.querySelector("[data-scroll-container]"),
+//     smooth: true,
+//     repeat: true,
+//   });
 
-  splitting();
-  introAnim();
-}
+//   splitting();
+//   introAnim();
+// }
 
 if (scroll) {
   const navLinkElements = document.querySelectorAll(".nav-main a");
