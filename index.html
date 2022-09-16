@@ -215,20 +215,30 @@ title: Hackout 2022 · 10th-16th October 2022
   </div>
 </section>
 
-<section class="faqs container" id="faqs" data-scroll-section>
-  <div class="section-copy">
-    <h2 id="prizes">FAQs</h2>
-  </div>
-
-  <div class="faq">
-    {% for faq in faqs.2021 %}
-    <details>
-      <summary class="faq-title">{{ faq.title }}</summary>
-      <p class="faq-content">{{ faq.content }}</p>
-    </details>
-    {% endfor %}
+<section class="faq container" id="faq">
+  <div class="faq-container">
+    <div class="faq-right-container">
+      <hr />
+      <div class="right-container-content">
+        <h1 class="faq-heading">FAQs</h1>
+        <div class="faq">
+          {% for faq in faqs.2021 %}
+          <details>
+            <summary class="faq-title">
+              {{ faq.title }}
+              <span class="faq-chevron-icon"
+                ><img src="assets/svg/chevron.svg" alt="chevron"
+              /></span>
+            </summary>
+            <p class="faq-content">{{ faq.content }}</p>
+          </details>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
 <section class="contact container" id="contact">
   <div class="contact-container">
     <div class="contact-right-container">
