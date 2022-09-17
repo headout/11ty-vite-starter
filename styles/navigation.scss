@@ -1,11 +1,9 @@
-nav {
-  padding-top: 2.167rem;
-  padding-bottom: 2.278rem;
+#navigation {
+  padding: 2.167rem 0rem 2.278rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  z-index: 99;
 }
 
 .nav-main {
@@ -15,6 +13,8 @@ nav {
   grid-auto-flow: column;
   list-style: none;
   column-gap: 1.778rem;
+  font-size: 0.889rem;
+  font-weight: 400;
 
   a {
     color: white;
@@ -47,9 +47,6 @@ nav {
 }
 
 #hackout-logo-nav {
-  margin-bottom: 0.4em;
-  height: 20px;
-  width: auto;
   margin-right: 1em;
 }
 
