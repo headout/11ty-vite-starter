@@ -216,6 +216,7 @@ header.container {
   margin: 2rem 0;
   margin-left: unset;
   display: flex;
+  border-radius: 4px 4px 0px 0px;
 
   @media screen and (max-width: 800px) {
     justify-content: center;
@@ -353,7 +354,7 @@ header.container {
 }
 
 .sponsors {
-  background: white;
+  background: #f0f0f0;
   color: #0e081c;
   padding: 32px;
   text-align: center;
@@ -367,17 +368,6 @@ header.container {
       justify-content: center;
       align-items: center;
     }
-  }
-  .sponsor-cta img {
-    width: 22rem;
-  }
-
-  h4 {
-    font-weight: 400;
-    font-size: 0.9rem;
-    letter-spacing: 0.1px;
-    text-transform: uppercase;
-    color: #ff00a8;
   }
 
   @media screen and (max-width: 600px) {
@@ -678,7 +668,6 @@ span {
 
 @media screen and (max-width: 800px) {
   .background-container {
-    padding: 1rem; // REMOVE BACKGROUND ON PHONE?
-    display: none;
+    padding: 3rem 1.5rem;
   }
 }
