@@ -165,6 +165,10 @@ header.container {
 .right-container-content {
   padding: 2.23rem;
   height: fit-content;
+
+  #faq-heading-container {
+    padding: 10rem;
+  }
 }
 
 .header-cta-wrapper {
@@ -185,7 +189,7 @@ header.container {
   margin-top: 2.66rem;
   position: relative;
   width: 280px;
-  height: 56px;
+  min-height: 56px;
 
   > svg {
     margin-left: 8px;
@@ -205,6 +209,64 @@ header.container {
   height: 100%;
   width: 100%;
   opacity: 0.001;
+}
+
+.speaker-container {
+  width: 28.2rem;
+  margin: 2rem 0;
+  margin-left: unset;
+  display: flex;
+
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+    row-gap: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+  }
+
+  button > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    margin: 2rem 0 0;
+  }
+}
+
+.speaker-container-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.speaker-right-container {
+  align-items: center;
+  flex-wrap: wrap;
+  background: #f0f0f0;
+  color: #0e081c;
+  border-radius: 4px 4px 0px 0px;
+
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+    row-gap: 2rem;
+    width: 100%;
+  }
+  .speaker-title {
+    margin: 0;
+    font-size: 3rem;
+  }
+  .speaker-subtitle {
+    margin-top: 1.33rem;
+    font-size: 1rem;
+  }
+}
+
+.speaker-cta {
+  margin-top: 2.66rem;
+  position: relative;
+  min-height: 56px;
+  padding: 1.063rem 1.66rem;
 }
 
 .speakers-list {
@@ -389,23 +451,6 @@ header.container {
   }
 }
 
-#headout-blimp {
-  border-radius: 50%;
-  width: 4rem;
-  height: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #8000ff;
-  position: absolute;
-  user-select: none;
-
-  img {
-    width: 60%;
-    height: auto;
-  }
-}
-
 span {
   display: inline-block;
 }
@@ -454,10 +499,6 @@ span {
     }
   }
 
-  hr {
-    margin: 2rem 0 0;
-  }
-
   @media screen and (max-width: 800px) {
     justify-content: center;
     row-gap: 2rem;
@@ -472,6 +513,7 @@ span {
   background: #f0f0f0;
   color: #0e081c;
   width: 780px;
+  border-radius: 4px 4px 0px 0px;
 
   .faq-heading {
     font-size: 2.889rem;
@@ -579,6 +621,8 @@ span {
   flex-wrap: wrap;
   background: #f0f0f0;
   color: #0e081c;
+  border-radius: 4px 4px 0px 0px;
+  width: 28.222rem;
 
   @media screen and (max-width: 800px) {
     justify-content: center;
@@ -601,6 +645,20 @@ span {
   padding: 0rem 1.66rem;
 }
 
+.blue-star-vector {
+  position: absolute;
+  bottom: 29.807rem;
+  right: 18.763rem;
+  z-index: -1;
+}
+
+.yellow-star-vector {
+  position: absolute;
+  bottom: 10.6rem;
+  left: 22.44rem;
+  z-index: -1;
+}
+
 .background-container {
   height: 100%;
   width: 100%;
@@ -609,7 +667,7 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 6.4rem;
-  z-index: -1;
+  z-index: -2;
   opacity: 60%;
 }
 
