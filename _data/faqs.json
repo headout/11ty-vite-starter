@@ -1,32 +1,32 @@
 {
-  "2021": [
+  "2022": [
     {
-      "title": "What's a Hackathon, and can I participate?",
-      "content": "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours. If you're a female or non-binary student developer, we'd love to have you at Hackout! Whether that's high school, undergrad, or graduate, we believe you can get something out of the event."
+      "title": "What’s a hackathon?",
+      "content": "An event that brings together people from all fields in life - a hackathon is your platform to identify problems and offer unique solutions. Usually within a limited time period of 24-48 hours."
     },
     {
-      "title": "How much does it cost?",
-      "content": "Zero. Zip. Zilch. Nada. Nothing. Admission to Hackout is completely free for everyone!"
+      "title": "Do I have to be a developer/tech person to apply?",
+      "content": "Nope! It doesn’t matter where you work, if you work, what you do, or who you are. If you’re someone who loves innovating, hackout is for you."
     },
     {
-      "title": "What if I don't want to present my hack?",
-      "content": "Unfinished or unimpressive (so you think) projects should be presented anyway! Presenting your hack gives you a chance to be proud of what you’ve done, and a constructive perspective of where you should be headed next."
+      "title": "How much do I have to pay to participate?",
+      "content": "Nothing. Nada. Nuh-uh. Participating in Hackout is absolutely free!"
     },
     {
-      "title": "Can we apply as a team?",
-      "content": "Yes! This hackathon is strictly a team competition. We believe that you’re stronger as a team than you are apart. You can join or create a team once you've started an individual application."
+      "title": "Do I apply individually? Or in a team?",
+      "content": "Hackout is strictly a team competition. We believe that you’re stronger together than when you’re apart."
     },
     {
-      "title": "How big can a team be?",
-      "content": "Up to 4 people large! Pro Tip: Aim to have a mix of people with both design and developer skills"
+      "title": "How many people can I have in a team?",
+      "content": "A maximum of 4. Pro tip: Get people from different fields!"
     },
     {
-      "title": "What if I don't have a team or an idea?",
-      "content": " Don't worry, most people don’t! We’ll have team formation and ideation events geared towards helping you find people to work with. It’s perfectly normal to go around to people, tell them you’re looking for a team, and ask if you can help out. You can also show yourself off at #teamup!"
+      "title": "What if I don’t have a team?",
+      "content": " Not an issue. We’ll be organising formation and ideation events geared towards helping you people to work with. Or you know, tweet about it. See who’d like to jump in and help. You’ll be pleasantly surprised."
     },
     {
-      "title": "Can I attend talks + workshops without being accepted for the hackathon?",
-      "content": "Yes! The conference is going to be open to everyone who's interested. We will keep you folks updated with the schedule and the links to the talks."
+      "title": "Can I attend speaker sessions and/or workshops without participating?",
+      "content": "Yesss! These sessions will be open to anyone and everyone who’s interested. More details soon."
     }
   ]
 }

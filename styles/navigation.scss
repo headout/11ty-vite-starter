@@ -1,5 +1,6 @@
 nav {
-  padding: 2rem 0;
+  padding-top: 2.167rem;
+  padding-bottom: 2.278rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +14,7 @@ nav {
   display: grid;
   grid-auto-flow: column;
   list-style: none;
-  column-gap: 1.4rem;
+  column-gap: 1.778rem;
 
   a {
     color: white;
@@ -30,7 +31,7 @@ nav {
   }
 
   li:after {
-    content: '';
+    content: "";
     height: 1px;
     width: 0%;
     position: absolute;
@@ -42,39 +43,6 @@ nav {
 
   li:hover:after {
     width: 100%;
-  }
-}
-
-.nav-socials {
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: center;
-  align-items: center;
-  column-gap: 0.4rem;
-
-  a {
-    background: rgba(255, 255, 255, 0);
-    transition: background-color 0.2s ease;
-    border-radius: 50%;
-    height: 1.8rem;
-    width: 1.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 75%;
-      height: auto;
-      transition: transform 0.2s ease;
-    }
-  }
-
-  a:hover {
-    background: rgba(255, 255, 255, 0.1);
-
-    img {
-      transform: scale(0.9);
-    }
   }
 }
 
