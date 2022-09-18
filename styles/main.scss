@@ -223,8 +223,40 @@ header.container {
   opacity: 0.001;
 }
 
+#speakers {
+  display: flex;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
+
+  @media screen and (max-width: 800px) {
+    .speaker-container-right {
+      width: 100% !important;
+    }
+  }
+
+  .speaker-text-container {
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f0f0f0;
+    color: #0e081c;
+    border-radius: 4px 4px 0px 0px;
+    height: 24rem;
+    @media screen and (max-width: 800px) {
+      height: auto;
+    }
+  }
+}
+.speakers-photos-container {
+  display: flex;
+}
+.speakers-list-container {
+  display: flex;
+  width: 100%;
+}
 .speaker-container {
-  width: 28.2rem;
+  width: 27.6rem;
   margin: 2rem 0;
   margin-left: unset;
   display: flex;
@@ -234,7 +266,7 @@ header.container {
     justify-content: center;
     row-gap: 2rem;
     margin: 2rem auto;
-    width: 80%;
+    width: 100%;
   }
 
   button > a {
@@ -251,6 +283,10 @@ header.container {
 .speaker-container-right {
   margin-left: auto;
   display: flex;
+  margin: 0;
+  padding: 1.23rem;
+  height: fit-content;
+  width: 37rem;
 }
 
 .speaker-right-container {
@@ -289,6 +325,11 @@ header.container {
   row-gap: 2rem;
   column-gap: 2rem;
   margin-top: 3rem;
+  width: 100%;
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(auto-fill, auto-fill);
+  }
 }
 
 .speaker-card-mini {
@@ -659,6 +700,10 @@ span {
   bottom: 10.6rem;
   left: 22.44rem;
   z-index: -1;
+
+  @media screen and (max-width: 800px) {
+    left: 19.44rem;
+  }
 }
 
 .background-container {
