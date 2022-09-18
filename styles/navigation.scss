@@ -1,10 +1,9 @@
-nav {
-  padding: 2rem 0;
+#navigation {
+  padding: 2.167rem 0rem 2.278rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  z-index: 99;
 }
 
 .nav-main {
@@ -13,7 +12,9 @@ nav {
   display: grid;
   grid-auto-flow: column;
   list-style: none;
-  column-gap: 1.4rem;
+  column-gap: 1.778rem;
+  font-size: 0.889rem;
+  font-weight: 400;
 
   a {
     color: white;
@@ -30,7 +31,7 @@ nav {
   }
 
   li:after {
-    content: '';
+    content: "";
     height: 1px;
     width: 0%;
     position: absolute;
@@ -45,48 +46,12 @@ nav {
   }
 }
 
-.nav-socials {
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: center;
-  align-items: center;
-  column-gap: 0.4rem;
-
-  a {
-    background: rgba(255, 255, 255, 0);
-    transition: background-color 0.2s ease;
-    border-radius: 50%;
-    height: 1.8rem;
-    width: 1.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 75%;
-      height: auto;
-      transition: transform 0.2s ease;
-    }
-  }
-
-  a:hover {
-    background: rgba(255, 255, 255, 0.1);
-
-    img {
-      transform: scale(0.9);
-    }
-  }
-}
-
 #hackout-logo-nav {
-  margin-bottom: 0.4em;
-  height: 20px;
-  width: auto;
   margin-right: 1em;
 }
 
 @media (max-width: 600px) {
-  nav {
+  #navigation {
     display: none;
   }
 }

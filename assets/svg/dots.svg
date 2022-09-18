@@ -1,0 +1,14 @@
+<svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4">
+<path d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V22H0V4Z" fill="#F0F0F0"/>
+<circle cx="2.90795" cy="1.90795" r="1.51538" fill="black"/>
+<circle cx="2.90795" cy="11.0002" r="1.51538" fill="black"/>
+<circle cx="2.90795" cy="20.0925" r="1.51538" fill="black"/>
+<circle cx="11.9998" cy="1.90795" r="1.51538" fill="black"/>
+<circle cx="11.9998" cy="11.0002" r="1.51538" fill="black"/>
+<circle cx="11.9998" cy="20.0925" r="1.51538" fill="black"/>
+<circle cx="21.0915" cy="1.90795" r="1.51538" fill="black"/>
+<circle cx="21.0915" cy="11.0002" r="1.51538" fill="black"/>
+<circle cx="21.0915" cy="20.0925" r="1.51538" fill="black"/>
+</g>
+</svg>
