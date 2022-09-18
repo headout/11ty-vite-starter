@@ -1,6 +1,6 @@
 import "../styles/main.scss";
 import anime from "animejs";
-import splitting from "splitting";
+// import splitting from "splitting";
 // import LocomotiveScroll from "locomotive-scroll";
 
 let scroll;
