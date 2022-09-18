@@ -533,12 +533,19 @@ span {
 
   .faq-chevron-icon {
     transition: transform 0.1s ease;
+
+    > img {
+      width: 1.5rem;
+      @media screen and (max-width: 800px) {
+        width: 1rem;
+      }
+    }
   }
 
   details[open] {
     margin-bottom: 1em;
     .faq-chevron-icon {
-      transition: rotate(180deg);
+      transform: rotate(180deg);
     }
   }
 
@@ -573,8 +580,14 @@ span {
     cursor: pointer;
     transition: 0.4s;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
     &::-webkit-details-marker {
       display: none;
+    }
+
+    @media screen and (max-width: 800px) {
+      font-size: 1.2em;
     }
   }
 
