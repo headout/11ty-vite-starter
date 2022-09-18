@@ -58,7 +58,7 @@ p {
     transform: translateY(4px);
   }
 }
-h1{
+h1 {
   font-family: "transducer";
 }
 h2 {
@@ -133,8 +133,12 @@ header.container {
   }
 }
 
+.banner-floppy > .lottie {
+  width: 25rem;
+}
+
 @media screen and (max-width: 800px) {
-  .banner-floppy > img {
+  .banner-floppy > .lottie {
     width: 250px;
     margin-top: 6rem;
   }
