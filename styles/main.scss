@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "halyard-text";
+  font-family: "proxima-nova";
   font-weight: 300;
   letter-spacing: -0.2px;
   font-feature-settings: "'SS04' 1";
@@ -58,9 +58,11 @@ p {
     transform: translateY(4px);
   }
 }
-
+h1{
+  font-family: "transducer";
+}
 h2 {
-  font-family: "halyard-display";
+  font-family: "transducer";
   font-weight: 400;
   font-size: 4rem;
   line-height: 1.125em;
@@ -95,6 +97,7 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+  font-family: "proxima-nova";
 
   > a {
     color: #ffffff;
