@@ -34,29 +34,29 @@ p {
   margin: 0 auto;
   line-height: 1.6em;
 
-  // a {
-  //   color: inherit;
-  //   display: inline-block;
-  //   position: relative;
-  //   transition: color 0.3s ease;
-  //   color: #ffbc00;
-  // }
+  a {
+    color: inherit;
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s ease;
+    color: #ffbc00;
+  }
 
-  // a:after {
-  //   content: "";
-  //   display: block;
-  //   height: 1px;
-  //   width: 100%;
-  //   background: currentColor;
-  //   position: absolute;
-  //   bottom: 0;
-  //   left: 0;
-  //   transition: transform 0.3s ease;
-  // }
+  a:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: currentColor;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+  }
 
-  // a:hover::after {
-  //   transform: translateY(4px);
-  // }
+  a:hover::after {
+    transform: translateY(2px);
+  }
 }
 h1 {
   font-family: "transducer";
