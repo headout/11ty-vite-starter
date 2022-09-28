@@ -10,7 +10,14 @@ title: Hackout 2022 · 10th-16th October 2022
 <header class="container">
   <div class="header-container">
     <div class="banner-floppy">
-      <lottie-player src="/assets/lottie.json" background="transparent"  speed="1" class="lottie" loop autoplay></lottie-player>
+      <lottie-player
+        src="/assets/lottie.json"
+        background="transparent"
+        speed="1"
+        class="lottie"
+        loop
+        autoplay
+      ></lottie-player>
     </div>
 
     <div class="header-right-container">
@@ -19,13 +26,15 @@ title: Hackout 2022 · 10th-16th October 2022
       </div>
       <div class="right-container-content">
         <h1 class="header-title">hackout ‘22</h1>
-        <p class="header-bold-subtitle">
-          10th-16th October 2022
-        </p>
+        <p class="header-bold-subtitle">10th-16th October 2022</p>
         <p class="header-subtitle">
-          Hackout — brought to you by @Headout , is our annual open-track
-          international hackathon. Learn, build, win and make your next big
-          career move.
+          Hackout — powered by Headout — is our annual open-track international
+          hackathon. Join us virtually on Discord or in-person at
+          <a href="https://www.iiita.ac.in/" target="_blank">IIIT-A</a>,
+          <a href="https://www.iitbhu.ac.in/" target="_blank">IIT Varanasi</a>
+          or
+          <a href="https://www.iitism.ac.in/" target="_blank">IIT Dhanbad</a>
+          to learn, build and make your next big career move!
         </p>
         <div class="header-cta-wrapper">
           <button class="header-cta" id="discord">
@@ -35,27 +44,27 @@ title: Hackout 2022 · 10th-16th October 2022
               rel="noreferrer noopener"
             >
               <div>Join our Discord</div>
+              <svg
+                width="29"
+                height="30"
+                viewBox="0 0 29 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.83969 20.3034L19.4463 9.69678"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </a>
-            <svg
-              width="29"
-              height="30"
-              viewBox="0 0 29 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.83969 20.3034L19.4463 9.69678"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
           </button>
           <button class="header-cta" id="devfolio" disabled>
             <div
@@ -101,7 +110,8 @@ title: Hackout 2022 · 10th-16th October 2022
       <div class="right-container-content">
         <h1 class="speaker-title">Speakers</h1>
         <p class="speaker-subtitle">
-          We had a kick-ass lineup last year — as you can see. So you know we’ll be back with more this time around. Stay tuned 😉
+          We had a kick-ass lineup last year — as you can see. So you know we’ll
+          be back with more this time around. Stay tuned 😉
         </p>
         <div class="speaker-cta-wrapper">
           <button class="speaker-cta" id="discord">
@@ -111,54 +121,54 @@ title: Hackout 2022 · 10th-16th October 2022
               rel="noreferrer noopener"
             >
               <div>Want to be a speaker? Apply here!</div>
+              <svg
+                width="29"
+                height="30"
+                viewBox="0 0 29 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.83969 20.3034L19.4463 9.69678"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </a>
-            <svg
-              width="29"
-              height="30"
-              viewBox="0 0 29 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.83969 20.3034L19.4463 9.69678"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
           </button>
         </div>
       </div>
     </div>
   </div>
   <div class="speaker-container speaker-container-right">
-      <div class="speakers-list-container">
-        <div class="speakers-list">
-          {% for speaker in speakers.2021 %}
-          <a
-            href="{{ speaker.url }}"
-            title=" {{speaker.name}} "
-            target="_blank"
-            rel="noreferrer"
-            class="speaker-card-mini"
-          >
-            <div class="speaker-details">
-              <img src="assets{{ speaker.image }}" alt="{{ speaker.name }}" />
-              <div class="speaker-name">{{ speaker.name }}</div>
-              <div class="speaker-title">{{ speaker.title }}</div>
-            </div>
-          </a>
-          {% endfor %}
-        </div>
-        </div>
+    <div class="speakers-list-container">
+      <div class="speakers-list">
+        {% for speaker in speakers.2021 %}
+        <a
+          href="{{ speaker.url }}"
+          title=" {{speaker.name}} "
+          target="_blank"
+          rel="noreferrer"
+          class="speaker-card-mini"
+        >
+          <div class="speaker-details">
+            <img src="assets{{ speaker.image }}" alt="{{ speaker.name }}" />
+            <div class="speaker-name">{{ speaker.name }}</div>
+            <div class="speaker-title">{{ speaker.title }}</div>
+          </div>
+        </a>
+        {% endfor %}
       </div>
+    </div>
   </div>
+  <!-- </div> -->
 </section>
 
 <!-- <section class="prizes container" id="prizes">
@@ -185,7 +195,6 @@ title: Hackout 2022 · 10th-16th October 2022
     <img src="/assets/sponsor04.png" alt="" />
   </div>
 </section> -->
-
 
 <section class="faq container" id="faqs">
   <div class="faq-container">
@@ -308,7 +317,7 @@ title: Hackout 2022 · 10th-16th October 2022
 	</div>
 </section> -->
 
-<section class="speaker container " id="sponsor">
+<section class="speaker container" id="sponsor">
   <!-- <div>
     <h1 id="sponsors" class="sponsors-text">Sponsors</h1>
     <p class="sponsors-paragraph">
@@ -358,7 +367,7 @@ title: Hackout 2022 · 10th-16th October 2022
       /></a>
     </div>
   </div>
-  </div>
+  <!-- </div> -->
 </section>
 
 <section class="contact container" id="contact">
@@ -403,7 +412,11 @@ title: Hackout 2022 · 10th-16th October 2022
       </div>
     </div>
   </div>
-  <img src="assets/svg/blue-star.svg" alt="blue star vector art" class="blue-star-vector">
+  <img
+    src="assets/svg/blue-star.svg"
+    alt="blue star vector art"
+    class="blue-star-vector"
+  />
   <div class="contact-container contact-container-right">
     <div class="contact-right-container">
       <div class="top-bar">
@@ -419,27 +432,27 @@ title: Hackout 2022 · 10th-16th October 2022
               rel="noreferrer noopener"
             >
               <div>Twitter</div>
+              <svg
+                width="29"
+                height="30"
+                viewBox="0 0 29 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.83969 20.3034L19.4463 9.69678"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </a>
-            <svg
-              width="29"
-              height="30"
-              viewBox="0 0 29 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.83969 20.3034L19.4463 9.69678"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
           </button>
           <button class="contact-cta" id="discord">
             <a
@@ -448,31 +461,35 @@ title: Hackout 2022 · 10th-16th October 2022
               rel="noreferrer noopener"
             >
               <div>Discord</div>
+              <svg
+                width="29"
+                height="30"
+                viewBox="0 0 29 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.83969 20.3034L19.4463 9.69678"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </a>
-            <svg
-              width="29"
-              height="30"
-              viewBox="0 0 29 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.83969 20.3034L19.4463 9.69678"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
           </button>
         </div>
       </div>
     </div>
   </div>
-  <img src="assets/svg/yellow-star.svg" alt="yellow star vector art" class="yellow-star-vector">
+  <img
+    src="assets/svg/yellow-star.svg"
+    alt="yellow star vector art"
+    class="yellow-star-vector"
+  />
 </section>
