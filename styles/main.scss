@@ -449,7 +449,7 @@ header.container {
 
 .sponsors.title {
   background: #c4c4c4;
-  margin: 16px auto;
+  margin: 8px auto;
   width: fit-content;
   border-radius: 4px;
 
@@ -459,17 +459,16 @@ header.container {
 }
 
 .sponsors.gold {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 1.2rem;
-  row-gap: 1.2rem;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   a {
     border-radius: 4px;
     background: #c4c4c4;
     padding: 20px;
     display: flex;
     align-items: center;
+    margin: 0.7rem;
   }
 
   img {
