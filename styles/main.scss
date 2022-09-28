@@ -39,7 +39,7 @@ p {
     display: inline-block;
     position: relative;
     transition: color 0.3s ease;
-    color: #ffbc00;
+    color: #ff007c;
   }
 
   a:after {
@@ -55,7 +55,7 @@ p {
   }
 
   a:hover::after {
-    transform: translateY(4px);
+    transform: translateY(2px);
   }
 }
 h1 {
@@ -101,6 +101,9 @@ button {
 
   > a {
     color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
