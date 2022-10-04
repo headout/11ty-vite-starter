@@ -225,16 +225,12 @@ header.container {
     }
   }
 }
-
-#devfolio iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0.001;
+#devfolio {
+  margin-top: 2.66rem;
+  position: relative;
+  width: 280px;
+  min-height: 56px;
 }
-
 #speakers {
   display: flex;
 
