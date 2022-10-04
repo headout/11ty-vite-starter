@@ -47,16 +47,15 @@ button.dark button.dark:hover {
   font-weight: 600;
   justify-content: center;
   outline: none;
-  transition: all .1s ease-in 0s;
+  transition: all 0.1s ease-in 0s;
   white-space: nowrap;
   width: 100%;
 }
 
-.dark{
+.dark {
   height: 56px !important;
   margin-top: 2.66rem;
 }
-
 
 p {
   margin: 0 auto;
@@ -242,9 +241,9 @@ header.container {
   position: relative;
   width: 280px;
   min-height: 56px;
-
-  > svg {
-    margin-left: 8px;
+  > a {
+    display: flex;
+    align-items: center;
   }
 
   @media (max-width: 600px) {
