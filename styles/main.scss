@@ -236,12 +236,17 @@ header.container {
     row-gap: 1rem;
   }
 }
+iframe {
+  height: 44px !important;
+  width: 280px !important;
+}
 
 .header-cta {
   margin-top: 2.66rem;
   position: relative;
   width: 280px;
-  min-height: 56px;
+  min-height: 44px;
+  border-radius: 4px;
   > a {
     display: flex;
     align-items: center;
@@ -781,7 +786,16 @@ span {
   }
 }
 
-#apply-button > a {
-  display: flex;
-  align-items: center;
+.devfolio-button-iframe {
+  margin: 0;
+  padding: 0;
+}
+
+.apply-button {
+  width: fit-content;
+}
+
+.devfolio-apply-button-container{
+  margin-top: auto;
+  height: 44px;
 }

@@ -81,3 +81,7 @@ if (scroll) {
     });
   });
 }
+
+// document.querySelector("body").addEventListener('load', ()=> {
+//   const frame = document.querySelector("")
+// });
