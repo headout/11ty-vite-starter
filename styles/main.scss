@@ -780,3 +780,8 @@ span {
     padding: 3rem 1.5rem;
   }
 }
+
+#apply-button > a {
+  display: flex;
+  align-items: center;
+}
