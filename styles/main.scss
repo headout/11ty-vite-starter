@@ -30,6 +30,34 @@ body {
   position: relative;
 }
 
+svg {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+button.dark button.dark:hover {
+  background-color: #27333f;
+  border: 2px solid transparent;
+  align-items: center;
+  background-color: #3770ff;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  outline: none;
+  transition: all .1s ease-in 0s;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.dark{
+  height: 56px !important;
+  margin-top: 2.66rem;
+}
+
+
 p {
   margin: 0 auto;
   line-height: 1.6em;
@@ -89,7 +117,7 @@ section {
 
 button {
   color: #ffffff;
-  background: #0e081c;
+  background: #27333f;
   display: flex;
   align-items: center;
   justify-content: center;
