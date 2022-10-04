@@ -236,10 +236,6 @@ header.container {
     row-gap: 1rem;
   }
 }
-iframe {
-  height: 44px !important;
-  width: 280px !important;
-}
 
 .header-cta {
   margin-top: 2.66rem;
@@ -798,4 +794,5 @@ span {
 .devfolio-apply-button-container{
   margin-top: auto;
   height: 44px;
+  width: 280px;
 }
