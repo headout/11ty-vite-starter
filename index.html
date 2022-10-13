@@ -92,47 +92,17 @@ title: Hackout 2022 · 10th-16th October 2022
       <div class="right-container-content">
         <h1 class="speaker-title">Speakers</h1>
         <p class="speaker-subtitle">
-          We had a kick-ass lineup last year — as you can see. So you know we’ll
-          be back with more this time around. Stay tuned 😉
+          After a kickass lineup of incredible speakers last year, We have
+          worked hard to bring together some of the best minds in the industry
+          once again this time 😉
         </p>
-        <div class="speaker-cta-wrapper">
-          <button class="speaker-cta" id="discord">
-            <a
-              href="https://form.typeform.com/to/vp20MbEx"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <div>Want to be a speaker? Apply here!</div>
-              <svg
-                width="29"
-                height="30"
-                viewBox="0 0 29 30"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.83969 20.3034L19.4463 9.69678"
-                  stroke="white"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M8.8401 9.6967L19.4467 9.6967L19.4467 20.3033"
-                  stroke="white"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </a>
-          </button>
-        </div>
       </div>
     </div>
   </div>
   <div class="speaker-container speaker-container-right">
     <div class="speakers-list-container">
       <div class="speakers-list">
-        {% for speaker in speakers.2021 %}
+        {% for speaker in speakers.2022 %}
         <a
           href="{{ speaker.url }}"
           title=" {{speaker.name}} "
@@ -141,7 +111,7 @@ title: Hackout 2022 · 10th-16th October 2022
           class="speaker-card-mini"
         >
           <div class="speaker-details">
-            <img src="assets{{ speaker.image }}" alt="{{ speaker.name }}" />
+            <img src="{{ speaker.image }}" alt="{{ speaker.name }}" />
             <div class="speaker-name">{{ speaker.name }}</div>
             <div class="speaker-title">{{ speaker.title }}</div>
           </div>
@@ -151,50 +121,6 @@ title: Hackout 2022 · 10th-16th October 2022
     </div>
   </div>
   <!-- </div> -->
-</section>
-
-<section class="prizes container" id="prizes">
-  <div class="section-copy">
-    <h2 id="speakers">Prizes</h2>
-  </div>
-  <div class="prizes-primary">
-    <img src="/assets/prizes/card1st.png" alt="" />
-    <img src="/assets/prizes/card2nd.png" alt="" />
-    <img src="/assets/prizes/card3rd.png" alt="" />
-    <img src="/assets/prizes/cardbest_design.png" alt="" />
-    <img src="/assets/prizes/cardtravel_track.png" alt="" />
-    <img src="/assets/prizes/cardtop10.png" alt="" />
-    <img src="/assets/prizes/cardvalorant.png" alt="" />
-    <img src="/assets/prizes/cardtrivia.png" alt="" />
-    <img class="grid-col-2" src="/assets/prizes/cardtwitter.png" alt="" />
-    <img src="/assets/prizes/cardmeme.png" alt="" />
-  </div>
-</section>
-
-<section class="faq container" id="faqs">
-  <div class="faq-container">
-    <div class="faq-right-container">
-      <div class="top-bar">
-        <img src="/assets/svg/dots.svg" alt="" />
-      </div>
-      <div class="right-container-content" id="faq-heading-container">
-        <h1 class="faq-heading">FAQs</h1>
-        <div class="faq">
-          {% for faq in faqs.2022 %}
-          <details>
-            <summary class="faq-title">
-              {{ faq.title }}
-              <span class="faq-chevron-icon"
-                ><img src="assets/svg/chevron.svg" alt="chevron"
-              /></span>
-            </summary>
-            <p class="faq-content">{{ faq.content }}</p>
-          </details>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <section class="schedule container" data-scroll-section>
@@ -214,12 +140,8 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">7 PM - 12 PM</span>
-        <span class="schedule-title">Valorant Tourney Prelims</span>
-      </div>
-      <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -233,12 +155,8 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">9:30 PM - 12:00 AM</span>
-        <span class="schedule-title">Valorant Tourney Finals</span>
-      </div>
-      <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -248,7 +166,7 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Hackout Q/A answer Retweet</span>
       </div>
       <div class="schedule-item">
-        <span class="time">2 PM - 5 PM</span>
+        <span class="time">12 PM - 6 PM</span>
         <span class="schedule-title">Speaker Sessions</span>
       </div>
       <div class="schedule-item">
@@ -256,16 +174,16 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">5:00 PM</span>
+        <span class="time">6:00 PM</span>
         <span class="schedule-title">Hacking Begins!!!</span>
       </div>
       <div class="schedule-item">
-        <span class="time">12:00 AM</span>
+        <span class="time">8:00 PM</span>
         <span class="schedule-title">Registrations Close</span>
       </div>
       <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -283,16 +201,12 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">5 PM - 8 PM</span>
-        <span class="schedule-title">Speaker Sessions</span>
-      </div>
-      <div class="schedule-item">
         <span class="time">8 PM - 12AM</span>
         <span class="schedule-title">Mid Reviews</span>
       </div>
       <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -327,7 +241,53 @@ title: Hackout 2022 · 10th-16th October 2022
       </div>
       <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="prizes container" id="prizes">
+  <div class="section-copy">
+    <h2 id="speakers">Prizes</h2>
+    <p>
+      Winners of Hackout'22 will get Internship / FTE opportunities @Headout
+      along with amazing cash prizes and goodies!
+    </p>
+  </div>
+  <div class="prizes-primary">
+    <img src="/assets/prizes/card1st.png" alt="" />
+    <img src="/assets/prizes/card2nd.png" alt="" />
+    <img src="/assets/prizes/card3rd.png" alt="" />
+    <img src="/assets/prizes/cardbest_design.png" alt="" />
+    <img src="/assets/prizes/cardtravel_track.png" alt="" />
+    <img src="/assets/prizes/cardtop10.png" alt="" />
+    <img src="/assets/prizes/cardtrivia.png" alt="" />
+    <img src="/assets/prizes/cardmeme.png" alt="" />
+  </div>
+</section>
+
+<section class="faq container" id="faqs">
+  <div class="faq-container">
+    <div class="faq-right-container">
+      <div class="top-bar">
+        <img src="/assets/svg/dots.svg" alt="" />
+      </div>
+      <div class="right-container-content" id="faq-heading-container">
+        <h1 class="faq-heading">FAQs</h1>
+        <div class="faq">
+          {% for faq in faqs.2022 %}
+          <details>
+            <summary class="faq-title">
+              {{ faq.title }}
+              <span class="faq-chevron-icon"
+                ><img src="assets/svg/chevron.svg" alt="chevron"
+              /></span>
+            </summary>
+            <p class="faq-content">{{ faq.content }}</p>
+          </details>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
