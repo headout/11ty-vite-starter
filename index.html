@@ -153,50 +153,6 @@ title: Hackout 2022 · 10th-16th October 2022
   <!-- </div> -->
 </section>
 
-<section class="prizes container" id="prizes">
-  <div class="section-copy">
-    <h2 id="speakers">Prizes</h2>
-  </div>
-  <div class="prizes-primary">
-    <img src="/assets/prizes/card1st.png" alt="" />
-    <img src="/assets/prizes/card2nd.png" alt="" />
-    <img src="/assets/prizes/card3rd.png" alt="" />
-    <img src="/assets/prizes/cardbest_design.png" alt="" />
-    <img src="/assets/prizes/cardtravel_track.png" alt="" />
-    <img src="/assets/prizes/cardtop10.png" alt="" />
-    <img src="/assets/prizes/cardvalorant.png" alt="" />
-    <img src="/assets/prizes/cardtrivia.png" alt="" />
-    <img class="grid-col-2" src="/assets/prizes/cardtwitter.png" alt="" />
-    <img src="/assets/prizes/cardmeme.png" alt="" />
-  </div>
-</section>
-
-<section class="faq container" id="faqs">
-  <div class="faq-container">
-    <div class="faq-right-container">
-      <div class="top-bar">
-        <img src="/assets/svg/dots.svg" alt="" />
-      </div>
-      <div class="right-container-content" id="faq-heading-container">
-        <h1 class="faq-heading">FAQs</h1>
-        <div class="faq">
-          {% for faq in faqs.2022 %}
-          <details>
-            <summary class="faq-title">
-              {{ faq.title }}
-              <span class="faq-chevron-icon"
-                ><img src="assets/svg/chevron.svg" alt="chevron"
-              /></span>
-            </summary>
-            <p class="faq-content">{{ faq.content }}</p>
-          </details>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="schedule container" data-scroll-section>
   <div class="section-copy">
     <h2 id="schedule">Schedule</h2>
@@ -214,12 +170,8 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">7 PM - 12 PM</span>
-        <span class="schedule-title">Valorant Tourney Prelims</span>
-      </div>
-      <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -233,12 +185,8 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">9:30 PM - 12:00 AM</span>
-        <span class="schedule-title">Valorant Tourney Finals</span>
-      </div>
-      <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -248,7 +196,7 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Hackout Q/A answer Retweet</span>
       </div>
       <div class="schedule-item">
-        <span class="time">2 PM - 5 PM</span>
+        <span class="time">12 PM - 6 PM</span>
         <span class="schedule-title">Speaker Sessions</span>
       </div>
       <div class="schedule-item">
@@ -256,16 +204,16 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">5:00 PM</span>
+        <span class="time">6:00 PM</span>
         <span class="schedule-title">Hacking Begins!!!</span>
       </div>
       <div class="schedule-item">
-        <span class="time">12:00 AM</span>
+        <span class="time">8:00 PM</span>
         <span class="schedule-title">Registrations Close</span>
       </div>
       <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -283,16 +231,12 @@ title: Hackout 2022 · 10th-16th October 2022
         <span class="schedule-title">Trivia</span>
       </div>
       <div class="schedule-item">
-        <span class="time">5 PM - 8 PM</span>
-        <span class="schedule-title">Speaker Sessions</span>
-      </div>
-      <div class="schedule-item">
         <span class="time">8 PM - 12AM</span>
         <span class="schedule-title">Mid Reviews</span>
       </div>
       <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
       </div>
     </div>
     <div>
@@ -327,7 +271,49 @@ title: Hackout 2022 · 10th-16th October 2022
       </div>
       <div class="schedule-item">
         <span class="time">12:00 AM</span>
-        <span class="schedule-title">Meme</span>
+        <span class="schedule-title">Meme Wars</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="prizes container" id="prizes">
+  <div class="section-copy">
+    <h2 id="speakers">Prizes</h2>
+  </div>
+  <div class="prizes-primary">
+    <img src="/assets/prizes/card1st.png" alt="" />
+    <img src="/assets/prizes/card2nd.png" alt="" />
+    <img src="/assets/prizes/card3rd.png" alt="" />
+    <img src="/assets/prizes/cardbest_design.png" alt="" />
+    <img src="/assets/prizes/cardtravel_track.png" alt="" />
+    <img src="/assets/prizes/cardtop10.png" alt="" />
+    <img src="/assets/prizes/cardtrivia.png" alt="" />
+    <img src="/assets/prizes/cardmeme.png" alt="" />
+  </div>
+</section>
+
+<section class="faq container" id="faqs">
+  <div class="faq-container">
+    <div class="faq-right-container">
+      <div class="top-bar">
+        <img src="/assets/svg/dots.svg" alt="" />
+      </div>
+      <div class="right-container-content" id="faq-heading-container">
+        <h1 class="faq-heading">FAQs</h1>
+        <div class="faq">
+          {% for faq in faqs.2022 %}
+          <details>
+            <summary class="faq-title">
+              {{ faq.title }}
+              <span class="faq-chevron-icon"
+                ><img src="assets/svg/chevron.svg" alt="chevron"
+              /></span>
+            </summary>
+            <p class="faq-content">{{ faq.content }}</p>
+          </details>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

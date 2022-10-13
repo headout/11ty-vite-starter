@@ -1,26 +1,26 @@
 {
-	"name": "hackout-2021",
-	"version": "0.1.0",
-	"description": "Landing page for Hackout 2021",
-	"author": "Siddharth Jha <siddharth99c@gmail.com>",
-	"license": "MIT",
-	"private": false,
-	"scripts": {
-		"clean": "rm -rf ./.cache",
-		"dev": "concurrently \"npx @11ty/eleventy --serve\" \"vite\"",
-		"build": "yarn build:vite && yarn build:eleventy",
-		"build:eleventy": "NODE_ENV=production eleventy",
-		"build:vite": "NODE_ENV=production vite build",
-		"prod": "NODE_ENV=production yarn build && serve _site"
-	},
-	"dependencies": {
-		"@11ty/eleventy": "^0.11.0",
-		"animejs": "^3.2.1",
-		"concurrently": "^6.2.0",
-		"locomotive-scroll": "^4.1.2",
-		"sass": "^1.35.1",
-		"serve": "^12.0.0",
-		"splitting": "^1.0.6",
-		"vite": "^2.3.8"
-	}
+  "name": "hackout-2021",
+  "version": "0.1.0",
+  "description": "Landing page for Hackout 2021",
+  "author": "Siddharth Jha <siddharth99c@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "clean": "rm -rf ./.cache",
+    "dev": "concurrently \"npx @11ty/eleventy --serve\" \"vite\"",
+    "build": "yarn build:vite && yarn build:eleventy",
+    "build:eleventy": "NODE_ENV=production eleventy",
+    "build:vite": "NODE_ENV=production vite build",
+    "prod": "NODE_ENV=production yarn build && serve _site"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "animejs": "^3.2.1",
+    "concurrently": "^6.2.0",
+    "locomotive-scroll": "^4.1.2",
+    "sass": "^1.35.1",
+    "serve": "^12.0.0",
+    "splitting": "^1.0.6",
+    "vite": "^2.3.8"
+  }
 }
